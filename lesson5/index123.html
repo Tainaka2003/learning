@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @font-face {
+            font-family: Tahoma;
+        }
+        textarea {
+            resize: none;
+        }
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        input[type="date"]{
+            width: 200px;
+        }
+
+        input[type="submit"]{ width: 400px }
+
+        .osnova {
+            display: inline-block;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+<form action="" method="">
+
+    <label class="osnova" for="NamePole">Name</label><input id="NamePole" type="text" name="NamePole" maxlength="16" cols="30" rows="1" placeholder="How are you?"><br>
+    <label class="osnova" for="PhoneNumber">Phone</label><input id="PhoneNumber" type="tel" name="PhoneNumber" maxlength="11" cols="30" rows="1" placeholder="Give me your telephone!"><br>
+    <label class="osnova" for="EmailName">Email</label><input id="EmailName" type="email" name="EmailName" maxlength="30" cols="30" rows="1" placeholder="Give me your mail please!"><br>
+    <fieldset>
+        <legend>
+            What your character?
+        </legend>
+        <label for="111">Econom</label><input id="111" name="Ave" type="radio">
+        <label for="222">Active</label><input id="222" name="Ave" type="radio">
+        <label for="333">Passive</label><input id="333" name="Ave" type="radio">
+    </fieldset>
+    <fieldset>
+        <legend>
+            With who you ride?
+        </legend>
+        <label for="444">Dunek</label><input id="444" name="Av2e" type="checkbox">
+        <label for="555">Order</label><input id="555" name="Av2e" type="checkbox">
+        <label for="666">Remi</label><input id="666" name="Av2e" type="checkbox"><br>
+        <label for="777">Popez</label><input id="777" name="Av2e" type="checkbox">
+        <label for="888">Valera</label><input id="888" name="Av2e" type="checkbox">
+        <label for="999">Tainaka</label><input id="999" name="Av2e" type="checkbox"><br>
+        <label for="0000">Ritis</label><input id="0000" name="Av2e" type="checkbox">
+        <label for="1111">Rantom</label><input id="1111" name="Av2e" type="checkbox">
+        <label for="2222">Krist</label><input id="2222" name="Av2e" type="checkbox">
+    </fieldset>
+
+    <label class="osnova" for="date">You are dating:</label><input id="date" type="date" name="date" pattern="\d{2}\.\d{2}\.\d{4}"><br>
+    <label class="osnova" for="fora">You are love:<select id="fora">
+            <option value="">Abricot</option>
+            <option value="">Banana</option>
+            <option value="">Cherry</option></select></label><br>
+
+
+    <input type="submit" value="Order taxy">
+</form>
+</body>
+</html>
