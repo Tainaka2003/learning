@@ -1,0 +1,30 @@
+table {
+    width: 414px;
+    margin: 0 auto;
+    border-spacing: 0;
+    font-size: 14px;
+    font-family: 'Tahoma', 'sans-serif';
+}
+
+tr td,
+tr th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+a:link {
+    color: #44aa44;
+}
+
+a:visited {
+    color: #666666;
+}
+
+a:hover {
+    color: #aa4444;
+}
