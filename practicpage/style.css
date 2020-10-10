@@ -1,0 +1,45 @@
+body{
+    margin: 0 auto;
+    width: 680px;
+    height: 1440px;
+}
+
+svg{
+    fill: black;
+    display: inline;
+}
+p{
+    display: inline;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+p[class=pis]{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+p[class=text]{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+p[class=title]{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+}
+div{
+    width: 680px;
+    vertical-align: middle;
+    background-color: #ffe1e1;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+div[class=che]{
+    text-align: center;
+}
+div[class=photo]{
+    width: 560px;
+    height: 204px;
+    background-color: #ffe1e1;
+}

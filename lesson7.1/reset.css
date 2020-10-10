@@ -1,0 +1,26 @@
+.batya{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ffe1e1;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+.primary{
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 20%;
+    height: 20%;
+    background-color: #ffb2b2;
+    border-radius: 10px;
+}
+.toper{
+    margin-top: 5%;
+}
+.bottom{
+    margin-bottom: 5%;
+}
