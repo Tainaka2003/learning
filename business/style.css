@@ -1,0 +1,135 @@
+/*блоки*/
+body{
+	margin: 0 auto;
+	width: 1440px;
+}
+.yellow-block{
+	width: 1120px;
+	height: 840px;
+	background: #F4F9E2;
+}
+.blue-block{
+	width: 1440px;
+	height: 610px;
+	background: #62D0DF;
+}
+.white-block{
+	width: 1440px;
+	height: 470px;
+}
+.cascade{
+	width: 1440px;
+	height: 360px;
+	padding: 0;
+	box-sizing: border-box; 
+	float: left;
+}
+.block1{
+	background: #FFE2DE;
+	width: 25%;
+}
+.block2{
+	background: #C4E769;
+	width: 25%;
+}
+.block3{
+	background: #62D0DF;
+	width: 25%;
+}
+.block4{
+	background: #0052C1;
+	width: 25%;
+}
+.indent{
+	width: 1440px;
+}
+/*подблоки*/
+.left-yellow-block{
+	width: 480px;
+	height: 240px;
+	text-align: center;
+	padding-top: 20px;
+}
+.left-yellow-block2{
+	width: 480px;
+	height: 60px;
+	text-align: center;
+	padding-top: 20px;
+}
+.middle-yellow-block{
+	position: absolute;
+	top: -10px;
+	left: 480px;
+	width: 480px;
+	height: 240px;
+	padding-top: 30px;
+}
+.rectangle{
+	position: absolute;
+	width: 807.71px;
+	height: 544.93px;
+	right: 140px;
+	top: 0px;
+	border-radius: 312.159px;
+	overflow: hidden;
+	border-radius: 312.159px;
+	transform: matrix(0.87, 0, 0, 0.87, 0, 0);
+}
+/*элементы страницы*/
+.cyan-caption{
+	color: #62D0DF;
+}
+.navigation-caption1{
+	position: absolute;
+	left: 310px;
+	top: 30px;
+}
+.navigation-caption2{
+	position: absolute;
+	left: 380px;
+	top: 30px;
+}
+.navigation-caption3{
+	position: absolute;
+	right: -26px;
+	top: 30px;
+}
+.navigation-caption4{
+	position: absolute;
+	right: -90px;
+	top: 30px;
+}
+.cyan-button{
+	margin: 0 auto;
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	left: 1159px;
+	top: 27px;
+	background: #62D0DF;
+	border-radius: 50px;
+	border: 0;
+	outline: none;
+}
+.cyan-button:hover{
+	outline: none;
+	background: #fafaf2;
+	border: 2px solid #62D0DF;
+}
+.cyan-button:active{
+	outline: none;
+	box-shadow: inset 2px 2px 8px #898989;
+}
+.title{
+	width: 680px;
+	height: 160px;
+	text-indent: 77px;
+}
+.black-title{
+	text-align: center;
+}
+.text{
+	width: 480px;
+	height: 160px;
+	padding-left: 210px;
+}
