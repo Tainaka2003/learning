@@ -1,135 +1,232 @@
 /*блоки*/
-body{
-	margin: 0 auto;
-	width: 1440px;
+body {
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
 }
-.yellow-block{
-	width: 1120px;
-	height: 840px;
-	background: #F4F9E2;
+
+.globalCont {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1920px;
+    min-width: 1024px;
 }
-.blue-block{
-	width: 1440px;
-	height: 610px;
-	background: #62D0DF;
+
+.headerBlock {
+    margin: 0 auto;
 }
-.white-block{
-	width: 1440px;
-	height: 470px;
+
+.leftHeader {
+    float: left;
+    width: 80%;
+    background: #F4F9E2;
 }
-.cascade{
-	width: 1440px;
-	height: 360px;
-	padding: 0;
-	box-sizing: border-box; 
-	float: left;
+
+.rightHeader {
+    float: left;
+    width: 20%;
+    background: #fff;
 }
-.block1{
-	background: #FFE2DE;
-	width: 25%;
+
+.firstContent {
+    float: left;
+    width: 80%;
+    background: #F4F9E2;
 }
-.block2{
-	background: #C4E769;
-	width: 25%;
+
+.contentBlock {
+    float: left;
+    width: 100%;
+    background: #62D0DF;
 }
-.block3{
-	background: #62D0DF;
-	width: 25%;
+
+/*
+.cascade {
+    padding: 0;
+    box-sizing: border-box;
+    float: left;
 }
-.block4{
-	background: #0052C1;
-	width: 25%;
+
+.block1 {
+    background: #FFE2DE;
+    width: 25%;
 }
-.indent{
-	width: 1440px;
+
+.block2 {
+    background: #C4E769;
+    width: 25%;
 }
-/*подблоки*/
-.left-yellow-block{
-	width: 480px;
-	height: 240px;
-	text-align: center;
-	padding-top: 20px;
+
+.block3 {
+    background: #62D0DF;
+    width: 25%;
 }
-.left-yellow-block2{
-	width: 480px;
-	height: 60px;
-	text-align: center;
-	padding-top: 20px;
+
+.block4 {
+    background: #0052C1;
+    width: 25%;
 }
-.middle-yellow-block{
-	position: absolute;
-	top: -10px;
-	left: 480px;
-	width: 480px;
-	height: 240px;
-	padding-top: 30px;
+
+.indent {
+    width: 100%;
 }
-.rectangle{
-	position: absolute;
-	width: 807.71px;
-	height: 544.93px;
-	right: 140px;
-	top: 0px;
-	border-radius: 312.159px;
-	overflow: hidden;
-	border-radius: 312.159px;
-	transform: matrix(0.87, 0, 0, 0.87, 0, 0);
+*/
+/* элементы */
+.leftPartHeaderCaption {
+    margin: 27px 0 16px 0;
+    float: left;
+    font-size: 24px;
+    padding-left: 160px;
+    min-padding-left: 40px;
+    color: #62D0DF;
 }
-/*элементы страницы*/
-.cyan-caption{
-	color: #62D0DF;
+
+.rightPartHeaderCaption {
+    display: inline-block;
+    text-align: center;
+    margin: 21px 0 16px 0;
 }
-.navigation-caption1{
-	position: absolute;
-	left: 310px;
-	top: 30px;
+
+.firstElement {
+    margin-left: 33%;
 }
-.navigation-caption2{
-	position: absolute;
-	left: 380px;
-	top: 30px;
+
+.nextElement {
+    margin-left: 2%;
 }
-.navigation-caption3{
-	position: absolute;
-	right: -26px;
-	top: 30px;
+
+.lastElement {
+    margin-left: 2%;
 }
-.navigation-caption4{
-	position: absolute;
-	right: -90px;
-	top: 30px;
+
+.rightHeader button {
+    margin: 30px;
+    width: 150px;
+    height: 50px;
+    background: #62D0DF;
+    border: 0;
+    border-radius: 50px;
+    outline: none;
 }
-.cyan-button{
-	margin: 0 auto;
-	position: absolute;
-	width: 150px;
-	height: 50px;
-	left: 1159px;
-	top: 27px;
-	background: #62D0DF;
-	border-radius: 50px;
-	border: 0;
-	outline: none;
+
+.rightHeader button:active {
+    box-shadow: inset 2px 2px 8px #898989;
 }
-.cyan-button:hover{
-	outline: none;
-	background: #fafaf2;
-	border: 2px solid #62D0DF;
+
+.rightHeader button span {
+    color: #ffffff;
+    font-size: 14px;
 }
-.cyan-button:active{
-	outline: none;
-	box-shadow: inset 2px 2px 8px #898989;
+
+a, a:visited {
+    color: #22356F;
+    text-decoration: none;
 }
-.title{
-	width: 680px;
-	height: 160px;
-	text-indent: 77px;
+
+a:hover {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #22356F;
 }
-.black-title{
-	text-align: center;
+
+.firstText {
+    width: 33%;
+    padding-left: 180px;
 }
-.text{
-	width: 480px;
-	height: 160px;
-	padding-left: 210px;
+
+.firstContent {
+    width: 100%;
+    margin: 170px 0 0 0;
+}
+
+.titleElement {
+    font-size: 48px;
+    color: #22356F;
+}
+
+.textContent {
+    width: 34%;
+    padding-left: 180px;
+    padding-top: 60px;
+    font-size: 24px;
+    color: #22356F;
+    line-height: 42px;
+}
+
+.yellowButton {
+    margin-top: 60px;
+    margin-left: 180px;
+    margin-bottom: 80px;
+    width: 150px;
+    height: 50px;
+    background: #F9B640;
+    border: 0;
+    font-size: 16px;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.yellowButton:active {
+    box-shadow: inset 2px 2px 8px #898989;
+}
+
+.whiteAnkor {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 80px;
+    color: #FAB63E;
+}
+
+.whiteAnkor:hover {
+    border-color: #FAB63E;
+}
+
+.whiteAnkor:visited {
+    color: #FAB63E;
+}
+
+.businessImage {
+    overflow: hidden;
+}
+
+.whiteHr {
+    height: 3px;
+}
+
+.contentTitle {
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.whiteText24 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+}
+
+.whiteText16 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.leftContent {
+    width: 60%;
+    float: left;
+}
+
+.forText {
+    padding: 151px 151px 95px 175px;
+}
+
+.rightContent {
+    width: 40%;
+    float: right;
+}
+
+.rightContent img {
+    width: 100%;
+}
+
+.contentText {
+    padding: 75px 0 0 0;
+    line-height: 35px;
 }
