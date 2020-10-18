@@ -1,0 +1,367 @@
+/*блоки*/
+body {
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.globalCont {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1920px;
+    min-width: 1024px;
+}
+
+.headerBlock {
+    margin: 0 auto;
+}
+
+.leftHeader {
+    float: left;
+    width: 80%;
+    background: #F4F9E2;
+}
+
+.rightHeader {
+    float: left;
+    width: 20%;
+    background: #fff;
+}
+
+.firstContent {
+    float: left;
+    width: 80%;
+    background: #F4F9E2;
+}
+
+.contentBlock {
+    float: left;
+    width: 100%;
+    background: #62D0DF;
+}
+
+.white-block-indent {
+    float: left;
+    width: 100%;
+    background: #ffffff;
+}
+
+
+.cascade {
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+
+.cascadeList {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-weight: 600;
+}
+
+.list1 li {
+    padding-top: 175px;
+    height: 305px;
+    display: inline-block;
+    float: left;
+    width: 25%;
+}
+
+.list2 li {
+    padding-top: 255px;
+    height: 385px;
+    display: inline-block;
+    float: left;
+    width: 33.33%;
+}
+
+.cascadeText1 {
+    background: #FFE2DE;
+}
+
+.cascadeText2 {
+    background: #C4E769;
+}
+
+.cascadeText3 {
+    background: #62D0DF;
+}
+
+.cascadeText4 {
+    background: #0052C1;
+}
+
+.cascadeText5 {
+    background: #22356F;
+}
+
+.cascadeText6 {
+    background: #0052C1;
+}
+
+.cascadeText7 {
+    background-image: url("strawberry.png");
+    background-size: contain;
+}
+
+.cascadeText8 {
+    background: #62D0DF;
+}
+
+.cascadeText9 {
+    background: #DEE1FF;
+}
+
+.cascadeText0 {
+    background: #8F00FF;
+}
+
+.indent {
+    float: left;
+    height: 120px;
+    width: 100%;
+}
+
+.indent2 {
+    float: left;
+    height: 20px;
+    width: 100%;
+}
+
+/* элементы */
+.leftPartHeaderCaption {
+    margin: 27px 0 16px 0;
+    float: left;
+    font-size: 24px;
+    padding-left: 160px;
+    min-padding-left: 40px;
+    color: #62D0DF;
+}
+
+.rightPartHeaderCaption {
+    display: inline-block;
+    text-align: center;
+    margin: 21px 0 16px 0;
+}
+
+.firstElement {
+    margin-left: 33%;
+}
+
+.nextElement {
+    margin-left: 2%;
+}
+
+.lastElement {
+    margin-left: 2%;
+}
+
+.rightHeader button {
+    margin: 30px;
+    width: 150px;
+    height: 50px;
+    background: #62D0DF;
+    border: 0;
+    border-radius: 50px;
+    outline: none;
+}
+
+.rightHeader button:active {
+    box-shadow: inset 2px 2px 8px #898989;
+}
+
+.rightHeader button span {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+a, a:visited {
+    color: #22356F;
+    text-decoration: none;
+}
+
+a:hover {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #22356F;
+}
+
+.firstText {
+    width: 33%;
+    padding-left: 180px;
+}
+
+.firstContent {
+    width: 100%;
+    margin: 170px 0 0 0;
+}
+
+.titleElement {
+    font-size: 48px;
+    color: #22356F;
+}
+
+.textContent {
+    width: 34%;
+    padding-left: 180px;
+    padding-top: 60px;
+    font-size: 24px;
+    color: #22356F;
+    line-height: 42px;
+}
+
+.yellowButton {
+    margin-top: 60px;
+    margin-left: 180px;
+    margin-bottom: 80px;
+    width: 150px;
+    height: 50px;
+    background: #F9B640;
+    border: 0;
+    font-size: 16px;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.yellowButton:active {
+    box-shadow: inset 2px 2px 8px #898989;
+}
+
+.whiteAnkor {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 80px;
+    color: #FAB63E;
+}
+
+.whiteAnkor:hover {
+    border-color: #FAB63E;
+}
+
+.whiteAnkor:visited {
+    color: #FAB63E;
+}
+
+.businessImage {
+    overflow: hidden;
+}
+
+.whiteHr {
+    height: 3px;
+}
+
+.contentTitle {
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.whiteText24 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+}
+
+.whiteText16 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.leftContent {
+    width: 60%;
+    float: left;
+}
+
+.forText {
+    padding: 151px 151px 95px 175px;
+}
+
+.rightContent {
+    width: 40%;
+    float: right;
+}
+
+.rightContent img {
+    width: 100%;
+}
+
+.contentText {
+    padding: 75px 0 0 0;
+    line-height: 35px;
+}
+
+.blackCaption {
+    width: 30%;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 23px;
+    float: left;
+}
+
+.blackTextBlock {
+    width: 70%;
+    float: right;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.blackCaptionText {
+    padding: 160px 0 0 105px;
+    display: inline-block;
+}
+
+.blackTextBlockText {
+    padding: 150px 620px 75px 0;
+    display: inline-block;
+}
+
+.lastBlockInWhiteBlock {
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.lastBlockInWhiteBlock p {
+    padding: 0 40% 25px 45%;
+}
+
+li {
+    list-style: none;
+}
+
+li span[class="cascadeText"] {
+    font-size: 32px;
+    line-height: 34px;
+    color: #FFFFFF;
+    border-top: 1px solid #fdfdfd;
+    padding-top: 20px;
+
+}
+
+ul li ::before {
+    content: "\2022"; /* юникод точки */
+    color: #e9b730; /* Менять цвет */
+    font-weight: bold; /* Менять жирность */
+    display: inline-block; /* Расстояние между точкой и текстом */
+    width: 1em; /* Задать значение расстояния */
+}
+
+.textListBlock {
+    float: left;
+    width: 33.33%
+}
+
+.textListBlockTitle {
+    padding: 55px 100px 30px 105px;
+    font-size: 28px;
+    line-height: 33px;
+    color: #22356F;
+}
+
+.textListBlockText {
+    padding: 0 80px 40px 105px;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(34, 53, 111, 0.5);
+}

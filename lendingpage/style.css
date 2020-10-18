@@ -1,0 +1,17 @@
+body{
+	box-sizing: border-box;
+}
+svg{
+	float: left;
+}
+.logo{
+	padding: 40px 0 0 50px;
+	height: 40px;
+	width: 130px;
+}
+.logo-text{
+	margin: 3px;
+}
+.purple-caption{
+	padding: 170px 0 0 230px;
+}
