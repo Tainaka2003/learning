@@ -349,7 +349,7 @@ ul li ::before {
 
 .textListBlock {
     float: left;
-    width: 33.33%
+    width: 33.33%;
 }
 
 .textListBlockTitle {
@@ -364,4 +364,140 @@ ul li ::before {
     font-size: 16px;
     line-height: 25px;
     color: rgba(34, 53, 111, 0.5);
+}
+
+.conditions {
+    width: 100%;
+    float: left;
+}
+
+.conditionsPhoto {
+    float: left;
+    width: 25%;
+    height: 800px;
+}
+
+.conditionsCaption {
+    float: right;
+    width: 60%;
+    padding: 100px 175px 0 105px;
+    font-size: 16px;
+    line-height: 12px;
+}
+
+.conditionsText {
+    float: right;
+    width: 60%;
+    font-size: 36px;
+    line-height: 53px;
+    color: #22356F;
+    padding: 225px 175px 150px 105px;
+}
+
+.cyanCaption {
+    color: #62D0DF;
+}
+
+.conditionsSpan{
+    width: 676px;
+}
+
+.conditionsLast {
+    float: right;
+    width: 60%;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FAB63E;
+    padding: 0 175px 0 105px;
+}
+
+.contactUs {
+    float: left;
+    width: 100%;
+}
+
+.contactBlock {
+    float: left;
+    width: 75%;
+    background: #22356F;
+    margin: 0 !important;
+}
+
+.contactCaption {
+    padding: 100px 0 0 180px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.contactTitle {
+    padding: 180px 0 0 180px;
+    margin: 0;
+    font-size: 64px;
+    line-height: 94px;
+    color: #FFFFFF;
+}
+
+.contactText {
+    padding: 80px 500px 0 180px;
+    margin: 0;
+    font-size: 36px;
+    line-height: 53px;
+    color: #FFFFFF;
+}
+
+.contactUnderCaption {
+    color: #62D0DF;
+    padding: 50px 0 105px 180px;
+}
+
+.contactImg {
+    width: 25%;
+    float: right;
+}
+
+.under {
+    width: 100%;
+}
+
+.underBlockLeft {
+    float: left;
+    width: 40%;
+}
+
+.underBlockRight {
+    float: left;
+    width: 60%;
+}
+
+.underTitle {
+    float: left;
+    padding: 100px 130px 20px 70px;
+    font-size: 24px;
+    color: #22356F;
+    text-transform: uppercase;
+}
+
+.underText {
+    float: left;
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 23px;
+    color: rgba(34, 53, 111, 0.5);
+}
+
+.underBlockRightPart {
+    float: left;
+    width: 25%;
+}
+
+.underLine {
+    float: left;
+    width: 100%;
+    padding: 30px 0 25px 200px;
+    background: #62D0DF;
+    color: #FFFFFF;
+
 }
