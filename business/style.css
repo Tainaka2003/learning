@@ -135,7 +135,8 @@ body {
     margin: 27px 0 16px 0;
     float: left;
     font-size: 24px;
-    padding-left: 160px;
+    font-weight: bold;
+    padding-left: 180px;
     min-padding-left: 40px;
     color: #62D0DF;
 }
@@ -188,7 +189,7 @@ a:hover {
 }
 
 .firstText {
-    width: 33%;
+    width: 37%;
     padding-left: 180px;
 }
 
@@ -199,6 +200,7 @@ a:hover {
 
 .titleElement {
     font-size: 48px;
+    font-weight: bold;
     color: #22356F;
 }
 
@@ -273,7 +275,7 @@ a:hover {
 }
 
 .forText {
-    padding: 151px 151px 95px 175px;
+    padding: 191px 181px 95px 175px;
 }
 
 .rightContent {
@@ -286,7 +288,8 @@ a:hover {
 }
 
 .contentText {
-    padding: 75px 0 0 0;
+    padding: 95px 185px 0 0;
+    font-size: 24px;
     line-height: 35px;
 }
 
@@ -307,17 +310,20 @@ a:hover {
 
 .blackCaptionText {
     padding: 160px 0 0 105px;
+    color: #22356F;
     display: inline-block;
 }
 
 .blackTextBlockText {
     padding: 150px 620px 75px 0;
+    color: #22356F;
     display: inline-block;
 }
 
 .lastBlockInWhiteBlock {
     width: 100%;
     display: inline-block;
+    color: rgba(34, 53, 111, 0.5);
     font-size: 16px;
     line-height: 19px;
 }
@@ -345,6 +351,21 @@ ul li ::before {
     font-weight: bold; /* Менять жирность */
     display: inline-block; /* Расстояние между точкой и текстом */
     width: 1em; /* Задать значение расстояния */
+}
+
+.firstElement ::before {
+    content: " ";
+    list-style: none;
+}
+
+.nextElement ::before {
+    content: " ";
+    list-style: none;
+}
+
+.lastElement ::before {
+    content: " ";
+    list-style: none;
 }
 
 .textListBlock {
@@ -414,6 +435,7 @@ ul li ::before {
 .contactUs {
     float: left;
     width: 100%;
+    height: 800px;
 }
 
 .contactBlock {
@@ -458,7 +480,9 @@ ul li ::before {
 }
 
 .under {
+    float: left;
     width: 100%;
+    height: 380px;
 }
 
 .underBlockLeft {
@@ -473,8 +497,10 @@ ul li ::before {
 
 .underTitle {
     float: left;
-    padding: 100px 130px 20px 70px;
-    font-size: 24px;
+    padding: 100px 40px 20px 0;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
     color: #22356F;
     text-transform: uppercase;
 }
@@ -482,7 +508,15 @@ ul li ::before {
 .underText {
     float: left;
     width: 80%;
-    text-align: center;
+    font-size: 14px;
+    line-height: 23px;
+    color: rgba(34, 53, 111, 0.5);
+    border-right: 1px solid #e8e8e8;
+}
+
+.underText2 {
+    float: left;
+    width: 80%;
     font-size: 14px;
     line-height: 23px;
     color: rgba(34, 53, 111, 0.5);
@@ -499,4 +533,8 @@ ul li ::before {
     padding: 30px 0 25px 200px;
     background: #62D0DF;
     color: #FFFFFF;
+}
+
+.underBlueText {
+    color: #0052C1;
 }
