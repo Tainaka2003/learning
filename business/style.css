@@ -143,20 +143,34 @@ body {
 
 .rightPartHeaderCaption {
     display: inline-block;
-    text-align: center;
+
     margin: 21px 0 16px 0;
 }
 
 .firstElement {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #F4F9E2;
     margin-left: 33%;
 }
 
 .nextElement {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #F4F9E2;
     margin-left: 2%;
 }
 
 .lastElement {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #F4F9E2;
     margin-left: 2%;
+}
+
+.yellowButton, .whiteAnkor, .rightHeader button, .contactAnkor, .conditionsAnkor {
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .rightHeader button {
@@ -169,6 +183,10 @@ body {
     outline: none;
 }
 
+.rightHeader button:hover {
+    border: 2px solid #42b0bF;
+}
+
 .rightHeader button:active {
     box-shadow: inset 2px 2px 8px #898989;
 }
@@ -178,14 +196,21 @@ body {
     font-size: 14px;
 }
 
-a, a:visited {
-    color: #22356F;
-    text-decoration: none;
-}
-
-a:hover {
+.firstElement:hover, .nextElement:hover, .lastElement:hover {
+    box-sizing: border-box;
     padding-bottom: 10px;
     border-bottom: 2px solid #22356F;
+}
+
+a, a:hover, a:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #22356F;
+    text-align: center !important;
+}
+
+a:visited {
+    color: #22356F;
 }
 
 .firstText {
@@ -195,7 +220,7 @@ a:hover {
 
 .firstContent {
     width: 100%;
-    margin: 170px 0 0 0;
+    margin: 170px 0 30px 0;
 }
 
 .titleElement {
@@ -226,19 +251,25 @@ a:hover {
     outline: none;
 }
 
+.yellowButton:hover {
+    border: 2px solid #d99620;
+}
+
 .yellowButton:active {
     box-shadow: inset 2px 2px 8px #898989;
 }
 
 .whiteAnkor {
+    padding-bottom: 10px;
     margin-top: 60px;
     margin-left: 60px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     color: #FAB63E;
 }
 
 .whiteAnkor:hover {
-    border-color: #FAB63E;
+    border-bottom: 2px solid #FAB63E;
+    color: #FAB63E;
 }
 
 .whiteAnkor:visited {
@@ -254,18 +285,22 @@ a:hover {
 }
 
 .contentTitle {
+    padding-top: 40px;
     font-size: 36px;
     color: #FFFFFF;
+    font-weight: 600;
 }
 
 .whiteText24 {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
+    line-height: 50px;
     color: #fff;
 }
 
 .whiteText16 {
-    font-size: 20px;
+    font-size: 24px;
+    line-height: 39px;
     color: #fff;
 }
 
@@ -275,7 +310,7 @@ a:hover {
 }
 
 .forText {
-    padding: 191px 181px 95px 175px;
+    padding: 191px 131px 95px 175px;
 }
 
 .rightContent {
@@ -285,12 +320,13 @@ a:hover {
 
 .rightContent img {
     width: 100%;
+    height: 100%;
+    float: right;
 }
 
 .contentText {
-    padding: 95px 185px 0 0;
-    font-size: 24px;
-    line-height: 35px;
+    padding: 95px 110px 0 0;
+
 }
 
 .blackCaption {
@@ -336,13 +372,13 @@ li {
     list-style: none;
 }
 
-li span[class="cascadeText"] {
+.cascadeText {
     font-size: 32px;
     line-height: 34px;
     color: #FFFFFF;
+    padding-top: 30px;
     border-top: 1px solid #fdfdfd;
-    padding-top: 20px;
-
+    margin: 0 52px 0 52px;
 }
 
 ul li ::before {
@@ -404,6 +440,7 @@ ul li ::before {
     padding: 100px 175px 0 105px;
     font-size: 16px;
     line-height: 12px;
+    color: #22356F;
 }
 
 .conditionsText {
@@ -412,7 +449,8 @@ ul li ::before {
     font-size: 36px;
     line-height: 53px;
     color: #22356F;
-    padding: 225px 175px 150px 105px;
+    padding: 225px 175px 110px 105px;
+    font-weight: bold;
 }
 
 .cyanCaption {
@@ -420,7 +458,8 @@ ul li ::before {
 }
 
 .conditionsSpan{
-    width: 676px;
+    width: 776px;
+    margin: 0;
 }
 
 .conditionsLast {
@@ -440,29 +479,31 @@ ul li ::before {
 
 .contactBlock {
     float: left;
-    width: 75%;
+    width: 65%;
     background: #22356F;
     margin: 0 !important;
 }
 
 .contactCaption {
-    padding: 100px 0 0 180px;
+    padding: 100px 0 50px 180px;
     margin: 0;
     font-size: 16px;
     line-height: 12px;
     color: #FFFFFF;
+    text-transform: uppercase;
 }
 
 .contactTitle {
-    padding: 180px 0 0 180px;
+    padding: 100px 0 0 180px;
     margin: 0;
     font-size: 64px;
     line-height: 94px;
     color: #FFFFFF;
+    font-weight: bold;
 }
 
 .contactText {
-    padding: 80px 500px 0 180px;
+    padding: 80px 440px 0 180px;
     margin: 0;
     font-size: 36px;
     line-height: 53px;
@@ -471,11 +512,11 @@ ul li ::before {
 
 .contactUnderCaption {
     color: #62D0DF;
-    padding: 50px 0 105px 180px;
+    padding: 50px 0 40px 180px;
 }
 
 .contactImg {
-    width: 25%;
+    width: 35%;
     float: right;
 }
 
@@ -537,4 +578,40 @@ ul li ::before {
 
 .underBlueText {
     color: #0052C1;
+}
+
+.conditionsAnkor {
+    padding-bottom: 10px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    color: #FAB63E;
+}
+
+.conditionsAnkor:hover {
+    color: #FAB63E;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #FAB63E;
+}
+
+.conditionsAnkor:visited {
+    padding-bottom: 10px;
+    color: #FAB63E;
+}
+
+.contactAnkor {
+    padding-bottom: 10px;
+    margin-top: 75px;
+    margin-bottom: 10px;
+    color: #62D0DF;
+}
+
+.contactAnkor:hover {
+    color: #62D0DF;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #62D0DF;
+}
+
+.contactAnkor:visited {
+    padding-bottom: 10px;
+    color: #62D0DF;
 }

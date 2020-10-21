@@ -4,7 +4,7 @@
     <title>Beautiful page</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="globalCont">
@@ -30,16 +30,18 @@
                 depression, social anxiety, or even just caring for yourself more.
             </div>
             <div>
-                <button class="yellowButton">
+                <button class="yellowButton" onclick="location.href='#'">
                     Who i am
                 </button>
                 <a href="#" class="whiteAnkor">What do i do</a>
             </div>
         </div>
         <div class="rightHeader">
-            <button>
-                <span>Contact us</span>
-            </button>
+            <div class="buttonContainer">
+                <button onclick="location.href='#'">
+                    <span>Contact us</span>
+                </button>
+            </div>
             <div class="businessImage">
                 <img src="business.png" alt="business is a cool">
             </div>
@@ -78,24 +80,28 @@
     <div class="cascade">
         <ul class="cascadeList list1">
             <li class="cascadeText1">
-                <span class="cascadeText">
+
+                <div class="cascadeText">
                     Weight Lifting
-                </span>
+                </div>
             </li>
             <li class="cascadeText2">
-                <span class="cascadeText">
+
+                <div class="cascadeText">
                     Running & Spinning
-                </span>
+                </div>
             </li>
             <li class="cascadeText3">
-                <span class="cascadeText">
+
+                <div class="cascadeText">
                     Pumping Iron
-                </span>
+                </div>
             </li>
             <li class="cascadeText4">
-                <span class="cascadeText">
+
+                <div class="cascadeText">
                     Pumping Iron
-                </span>
+                </div>
             </li>
         </ul>
     </div>
@@ -103,34 +109,34 @@
     <div class="cascade">
         <ul class="cascadeList list2">
             <li class="cascadeText5">
-                <span class="cascadeText">
+                <div class="cascadeText">
                     Physical Health
-                </span>
+                </div>
             </li>
             <li class="cascadeText6">
-                <span class="cascadeText">
+                <div class="cascadeText">
                     Mental Health
-                </span>
+                </div>
             </li>
             <li class="cascadeText7">
-                <span class="cascadeText">
+                <div class="cascadeText">
                     Nutrition
-                </span>
+                </div>
             </li>
             <li class="cascadeText8">
-                <span class="cascadeText">
+                <div class="cascadeText">
                     Gymnastics
-                </span>
+                </div>
             </li>
             <li class="cascadeText9">
-                <span class="cascadeText">
+                <div class="cascadeText">
                     Crossfit
-                </span>
+                </div>
             </li>
             <li class="cascadeText0">
-                <span class="cascadeText">
+                <div class="cascadeText">
                     Aerobics
-                </span>
+                </div>
             </li>
         </ul>
     </div>
@@ -146,7 +152,7 @@
         </div>
         <div class="textListBlock">
             <div class="textListBlockTitle">
-                <span>Nutritional Plans</span>
+                <span>Weight Loss</span>
             </div>
             <div class="textListBlockText">
                 <span>Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.</span>
@@ -154,7 +160,7 @@
         </div>
         <div class="textListBlock">
             <div class="textListBlockTitle">
-                <span>Nutritional Plans</span>
+                <span>Mental Peace</span>
             </div>
             <div class="textListBlockText">
                 <span>Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.</span>
@@ -162,7 +168,7 @@
         </div>
         <div class="textListBlock">
             <div class="textListBlockTitle">
-                <span>Nutritional Plans</span>
+                <span>Home Training</span>
             </div>
             <div class="textListBlockText">
                 <span>Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.</span>
@@ -170,7 +176,7 @@
         </div>
         <div class="textListBlock">
             <div class="textListBlockTitle">
-                <span>Nutritional Plans</span>
+                <span>Work/Life Balance</span>
             </div>
             <div class="textListBlockText">
                 <span>Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.</span>
@@ -178,7 +184,7 @@
         </div>
         <div class="textListBlock">
             <div class="textListBlockTitle">
-                <span>Nutritional Plans</span>
+                <span>Cardio</span>
             </div>
             <div class="textListBlockText">
                 <span>Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.</span>
@@ -195,11 +201,14 @@
             </div>
             <div class="conditionsText">
                 <div class="conditionsSpan">
-                    MDD affects more than 16.1 million American adults, or about 6.7% of the U.S. population age 18 and older in a given year. We at <span class="cyanCaption">ThriveTalk</span> can help you.
+                    MDD affects more than 16.1 million American adults, or about 6.7% of the U.S. population age 18 and older in a given year. We at
+                    <a href="#"><span class="cyanCaption">ThriveTalk</span></a> can help you.
                 </div>
             </div>
             <div class="conditionsLast">
-                GET HELP NOW
+                <a href="#" class="conditionsAnkor">
+                    GET HELP NOW
+                </a>
             </div>
         </div>
     </div>
@@ -215,7 +224,9 @@
                 Take the free online assessment to see if you are a candidate and get started on your journey.
             </div>
             <div class="contactUnderCaption">
-                GET HELP NOW
+                <a href="#" class="contactAnkor">
+                    GET HELP NOW
+                </a>
             </div>
         </div>
         <div class="contactImg">
@@ -240,7 +251,7 @@
                     Efroad health
                 </div>
                 <div class="underText">
-                    Main Street 1, Olcott <br> Buffalo, United States <br><br> +555 283 784 333 <br> <span class="underBlueText">office@enfold-health.com</span>
+                    Main Street 1, Olcott <br> Buffalo, United States <br><br> +555 283 784 333 <br> <a href="#"><span class="underBlueText">office@enfold-health.com</span></a>
                 </div>
             </div>
             <div class="underBlockRightPart">
@@ -254,7 +265,7 @@
         </div>
     </div>
     <div class="underLine">
-        Copyright - ThriveTalk 2017
+        &copy; Copyright - ThriveTalk 2017
     </div>
 </div>
 </body>
