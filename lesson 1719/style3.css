@@ -1,0 +1,27 @@
+body {
+    margin: 100px auto;
+    max-width: 80%;
+    min-width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+div {
+    width: 100%;
+    height: 800px;
+    border: 1px solid black;
+}
+.class1 {
+    background-image: radial-gradient(circle, #ffff00 0%, #ff8800 5%, #ff8800 100%);
+}
+.class2 {
+    background-image: linear-gradient(120deg, #0000ff 0%, #0000ff 10%, #ff0000 100%);
+}
+.class3 {
+    background-image: linear-gradient(240deg, #0000ff 0%, #0000ff 10%, #ff0000 100%);
+}
+.class4 {
+    background-image: linear-gradient(90deg, #00b3ff 0%, #00b3ff 6%, #0029ff 6%, #0029ff 12%, #00b3ff 12%, #00b3ff 18%, #0029ff 18%, #0029ff 24%, #00b3ff 24%, #00b3ff 30%, #0029ff 30%, #0029ff 36%, #00b3ff 36%, #00b3ff 42%, #0029ff 42%, #0029ff 48%, #00b3ff 48%, #00b3ff 54%, #0029ff 54%, #0029ff 60%, #00b3ff 60%, #00b3ff 66%, #0029ff 66%, #0029ff 72%, #00b3ff 72%, #00b3ff 78%, #0029ff 78%, #0029ff 84%, #00b3ff 84%, #00b3ff 90%, #0029ff 90%, #0029ff 96%, #00b3ff 96%, #00b3ff 100%);
+}
+.class5 {
+    background-image: linear-gradient(90deg, #ff0000 0%, #ff8800 8%, #ffff00 17%, #88ff00 25%, #00ff00 33%, #00ff88 42%, #00ffff 50%, #0088ff 58%, #0000ff 67%, #8800ff 75%, #ff00ff 83%, #ff0088 92%, #ff0000 100%)
+}
