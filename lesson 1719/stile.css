@@ -1,0 +1,48 @@
+body {
+    margin: 0 auto;
+}
+div {
+    margin: 0 auto;
+    max-width: 800px;
+}
+/*контейнер 2*/
+.cont2 {
+    margin: 100px auto;
+    border-top: 5px solid #44aa44;
+    border-bottom: 10px solid #44aa44;
+}
+.title21 {
+    text-align: center;
+    font-size: 36px;
+}
+.title22 {
+    text-align: center;
+    font-size: 24px;
+}
+li {
+    list-style-type: none;
+    cursor: pointer;
+}
+ul.list {
+    padding-left: 30%;
+}
+ul.list li {
+    display: inline;
+}
+li.element {
+    padding: 2.7% 1% 1% 1%;
+    margin: 2% -2px;
+    background-color: #44aa44;
+    box-sizing: border-box;
+}
+li:hover {
+    box-shadow: inset 1px 1px 8px #000000;
+}
+a {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #eee;
+    font-size: 32px;
+}
