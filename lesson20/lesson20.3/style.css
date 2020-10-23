@@ -1,0 +1,26 @@
+body {
+    width: 50%;
+    padding: 100px;
+    margin: 100px auto;
+}
+
+.block {
+    margin: 100px;
+    float: left;
+    width: 200px;
+    height: 300px;
+    background-color: #00b3ff;
+    border-radius: 4px;
+}
+
+.block:first-child:hover {
+    transform: skew(-6deg);
+}
+
+.block:nth-child(2):hover {
+    transform: skew(6deg, 15deg);
+}
+
+.block:last-child:hover {
+    transform: skew(-15deg, 6deg);
+}

@@ -1,0 +1,16 @@
+body {
+    margin: 100px auto;
+}
+div {
+    margin: 0 auto;
+    background-color: #e9b730;
+    padding: 0;
+    width: 30%;
+    height: 400px;
+    transition-duration: 1s;
+}
+div:hover {
+    width: 50%;
+    transition-duration: 1s;
+    background-color: #aa4444;
+}
