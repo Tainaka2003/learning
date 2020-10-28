@@ -1,0 +1,106 @@
+@width-photo: 560px;
+@height-photo: 204px;
+@line-height-text: 22px;
+@font-weight-pis: bold;
+@font-weight-titles: 600;
+@font-weight-text: 400;
+@font-size-big: 24px;
+@font-size-middle: 16px;
+@font-size-small: 12px;
+@color-title: #0C1014;
+@color-text: #515759;
+@color-bottom: #949494;
+@color-reference: #1890FF;
+@color-line-to-bottom: #f5efef;
+
+body {
+  margin: 0 auto;
+  width: 37.5%;
+  
+  svg {
+    fill: black;
+    display: inline;
+  }
+  
+  p{
+    display: inline;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  img {
+    width: @width-photo;
+    height: @height-photo;
+  }
+  
+  hr{
+    width: @width-photo;
+    color: @color-line-to-bottom;
+  }
+  
+  a, a:after{
+    color: @color-reference;
+    text-decoration: none;
+  }
+  
+  button{
+    position: relative;
+    width: 64px;
+    height: 24px;
+    border: 1px solid #1890FF;
+    border-radius: 4px;
+    margin-left: 10px;
+    background: #fff;
+  }
+  
+  div{
+    width: @width-photo;
+    margin: 20px auto;
+    border-radius: 15px;
+  }
+  
+  .che {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .photo {
+    width: @width-photo;
+    height: @height-photo;
+  }
+  
+  .first{
+    height: 25px;
+  }
+  
+  .second{
+    margin-bottom: 60px;
+  }
+  
+  .poster{
+    font-weight: @font-weight-text;
+    font-size: @font-size-small;
+    line-height: @line-height-text;
+    color: @color-bottom;
+  }
+  
+  .text{
+    font-weight: @font-weight-text;
+    font-size: @font-size-middle;
+    line-height: @line-height-text;
+    color: @color-text;
+  }
+  
+  .title{
+    font-weight: @font-weight-titles;
+    font-size: @font-size-big;
+    line-height: @line-height-text;
+    color: @color-title;
+  }
+  
+  .pis {
+    font-weight: @font-weight-pis;
+    font-size: @font-size-big;
+    line-height: @line-height-text;
+    color: @color-title;
+  }
+}

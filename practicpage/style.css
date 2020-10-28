@@ -1,80 +1,77 @@
-body{
-    margin: 0 auto;
-    width: 680px;
-    height: 1440px;
+body {
+  margin: 0 auto;
+  width: 37.5%;
 }
-
-svg{
-    fill: black;
-    display: inline;
+body svg {
+  fill: black;
+  display: inline;
 }
-p{
-    display: inline;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
+body p {
+  display: inline;
+  font-family: 'Inter', sans-serif;
 }
-.pis{
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-    color: #0C1014;
+body img {
+  width: 560px;
+  height: 204px;
 }
-.text{
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    color: #515759;
+body hr {
+  width: 560px;
+  color: #f5efef;
 }
-.title{
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 22px;
-    color: #0C1014;
+body a,
+body a:after {
+  color: #1890FF;
+  text-decoration: none;
 }
-.poster{
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 22px;
-    color: #949494;
+body button {
+  position: relative;
+  width: 64px;
+  height: 24px;
+  border: 1px solid #1890FF;
+  border-radius: 4px;
+  margin-left: 10px;
+  background: #fff;
 }
-div{
-    width: 560px;
-    margin: 20px auto;
-    border-radius: 15px;
+body div {
+  width: 560px;
+  margin: 20px auto;
+  border-radius: 15px;
 }
-.che{
-    text-align: center;
-    padding: 10px;
+body .che {
+  text-align: center;
+  padding: 10px;
 }
-.photo{
-    width: 560px;
-    height: 204px;
-    background-color: #ffe1e1;
+body .photo {
+  width: 560px;
+  height: 204px;
 }
-.first{
-    height: 25px;
+body .first {
+  height: 25px;
 }
-.second{
-    margin-bottom: 60px;
+body .second {
+  margin-bottom: 60px;
 }
-img {
-    width: 560px;
-    height: 204px;
+body .poster {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #949494;
 }
-hr{
-    width: 560px;
-    color: #f5efef;
+body .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #515759;
 }
-a, a:after{
-    color: #1890FF;
-    text-decoration: none;
+body .title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 22px;
+  color: #0C1014;
 }
-button{
-    position: relative;
-    width: 64px;
-    height: 24px;
-    border: 1px solid #1890FF;
-    border-radius: 4px;
-    margin-left: 10px;
-    background: #fff;
+body .pis {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 22px;
+  color: #0C1014;
 }
