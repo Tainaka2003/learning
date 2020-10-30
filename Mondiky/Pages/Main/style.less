@@ -1,0 +1,167 @@
+@import url('../../styles/main.less');
+
+.mainPage {
+    .bottomLine {
+        padding: 1px;
+
+        a {
+            &:hover {
+                color: @mainColor;
+                border-bottom: 1px solid @mainColor;
+            }
+
+            &:active {
+                color: @hoverColor;
+                border-bottom: 1px solid @hoverColor;
+            }
+        }
+    }
+
+    .headerBanner {
+        background: @headerColor;
+
+        button {
+            color: @mainColor;
+            border: 2px solid @mainColor;
+            background: @headerColor;
+
+            &:hover {
+                background: @mainColor;
+                color: @headerColor;
+            }
+
+            &:active {
+                color: @headerColor;
+            }
+        }
+    }
+
+    .contentBanner {
+        background: @contentColor;
+
+        button {
+            color: @mainColor;
+            border: 2px solid @mainColor;
+            background: @contentColor;
+
+            &:hover {
+                background: @mainColor;
+                color: @contentColor;
+            }
+
+            &:active {
+                color: @contentColor;
+            }
+        }
+    }
+
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+
+        .highLeftHeader {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 30%;
+
+            .leftMenu {
+                margin: 0;
+                font-size: 16px;
+                color: @mainColor;
+                text-transform: uppercase;
+            }
+        }
+
+        .highCenterHeader {
+            font-size: 46px;
+            font-weight: bold;
+            color: @mainColor;
+            text-transform: uppercase;
+        }
+
+        .highRightHeader {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 30%;
+
+            .rightMenu {
+                margin: 0;
+                font-size: 16px;
+                color: @mainColor;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .headerMessage {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-top: 600px;
+        padding-bottom: 130px;
+
+        .headerMessageTitle {
+            color: @mainColor;
+            font-size: 50px;
+            text-transform: uppercase;
+            padding-bottom: 25px;
+        }
+
+        .headerMessageText {
+            color: @mainColor;
+            font-size: 20px;
+            line-height: 32px;
+            padding-bottom: 40px;
+        }
+    }
+
+    .contentMessage {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-top: 300px;
+        padding-bottom: 500px;
+
+        .contentMessageTitle {
+            color: @mainColor;
+            font-size: 50px;
+            text-transform: uppercase;
+            padding-bottom: 25px;
+        }
+
+        .contentMessageText {
+            color: @mainColor;
+            font-size: 20px;
+            line-height: 32px;
+            padding-bottom: 40px;
+        }
+    }
+
+    .cascade {
+        display: flex;
+        flex-direction: row;
+
+        .cascadeBlock {
+            &:first-of-type {
+                background: #B9C8CB;
+                width: 33.33%;
+                height: 480px;
+            }
+
+            &:nth-of-type(2) {
+                background: #DAB4AF;
+                width: 33.33%;
+                height: 480px;
+            }
+
+            &:last-of-type {
+                background: #D3DAE2;
+                width: 33.33%;
+                height: 480px;
+            }
+        }
+    }
+}

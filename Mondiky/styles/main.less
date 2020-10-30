@@ -1,0 +1,132 @@
+@import url("variables.less");
+@import url("fonts.less");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue LT Std ', 'sans-serif', 'serif';
+}
+
+.cont {
+    margin: 0 auto;
+    width: 98%;
+    max-width: 1536px;
+    overflow: hidden;
+
+    @media only screen and (min-width: 2500px) {
+        width: 100%;
+        max-width: 2000px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+        max-width: 720px;
+    }
+
+    @media only screen and (max-width: 630px) {
+        width: 97%;
+    }
+}
+
+a,
+button {
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+a {
+    color: @mainColor;
+    text-decoration: none;
+
+    &:hover {
+        color: @hoverColor;
+    }
+}
+
+.buttonEmpty {
+    font-size: 20px;
+    line-height: 32px;
+    width: 20%;
+    height: 65px;
+    transition-duration: 0.5s;
+    outline: none;
+
+    &:hover {
+        transition-duration: 0.5s;
+        outline: none;
+    }
+
+    &:active {
+        animation-name: activeButton;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
+        outline: none;
+    }
+
+    @keyframes activeButton {
+        0% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(255,255,255) 3%, rgba(255,255,255,1) 100%);
+        }
+        5% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(255,255,230) 5%, rgba(255,255,255,1) 100%);
+        }
+        10% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(255,255,215) 10%, rgba(255,255,255,1) 100%);
+        }
+        15% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(255,255,192) 15%, rgba(255,255,255,1) 100%);
+        }
+        20% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(255,255,192) 20%, rgba(255,255,255,1) 100%);
+        }
+        25% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(255,255,192) 25%, rgba(255,255,255,1) 100%);
+        }
+        30% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(255,255,192) 30%, rgba(255,255,255,1) 100%);
+        }
+        35% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(255,255,192) 35%, rgba(255,255,255,1) 100%);
+        }
+        40% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(255,255,192) 40%, rgba(255,255,255,1) 100%);
+        }
+        45% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(255,255,192) 45%, rgba(255,255,255,1) 100%);
+        }
+        50% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(250,255,192) 50%, rgba(255, 255, 255, 1) 100%);
+        }
+        55% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(250,255,192) 55%, rgba(255, 255, 255, 1) 100%);
+        }
+        60% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(250,255,192) 60%, rgba(255, 255, 255, 1) 100%);
+        }
+        65% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(250,255,192) 65%, rgba(255, 255, 255, 1) 100%);
+        }
+        70% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(250,255,192) 70%, rgba(255, 255, 255, 1) 100%);
+        }
+        75% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(250,255,192) 75%, rgba(255, 255, 255, 1) 100%);
+        }
+        80% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(250,255,192) 80%, rgba(255, 255, 255, 1) 100%);
+        }
+        85% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(250,255,192) 85%, rgba(255, 255, 255, 1) 100%);
+        }
+        90% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(250,255,215) 90%, rgba(255, 255, 255, 1) 100%);
+        }
+        95% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(250,255,230) 95%, rgba(255, 255, 255, 1) 100%);
+        }
+        100% {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(250,255,255) 97%, rgba(250,247,183,1) 100%);
+        }
+    }
+}
