@@ -55,6 +55,62 @@
         }
     }
 
+    .conditionBanner {
+        background: @conditionColor;
+
+        button {
+            color: @mainColor;
+            border: 2px solid @mainColor;
+            background: @conditionColor;
+
+            &:hover {
+                background: @mainColor;
+                color: @conditionColor;
+            }
+
+            &:active {
+                color: @conditionColor;
+            }
+        }
+    }
+
+    .offerBanner {
+        background: @offerColor;
+
+        button {
+            color: @mainColor;
+            border: 2px solid @mainColor;
+            background: @offerColor;
+
+            &:hover {
+                background: @mainColor;
+                color: @offerColor;
+            }
+
+            &:active {
+                color: @offerColor;
+            }
+        }
+    }
+
+    .shopBanner {
+        background: @offerColor;
+
+        button {
+            color: @mainColor;
+            border: 2px solid @mainColor;
+            background: @offerColor;
+
+            &:hover {
+                background: @mainColor;
+                color: @offerColor;
+            }
+
+            &:active {
+                color: @offerColor;
+            }
+        }
+    }
 
     .header {
         display: flex;
@@ -146,21 +202,216 @@
 
         .cascadeBlock {
             &:first-of-type {
-                background: #B9C8CB;
+                background: @cascadeColor1;
                 width: 33.33%;
                 height: 480px;
             }
 
             &:nth-of-type(2) {
-                background: #DAB4AF;
+                background: @cascadeColor2;
                 width: 33.33%;
                 height: 480px;
             }
 
             &:last-of-type {
-                background: #D3DAE2;
+                background: @cascadeColor3;
                 width: 33.33%;
                 height: 480px;
+            }
+        }
+    }
+
+    .conditionMessage {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-top: 300px;
+        padding-bottom: 500px;
+
+        .conditionMessageTitle {
+            color: @mainColor;
+            font-size: 50px;
+            text-transform: uppercase;
+            padding-bottom: 25px;
+        }
+
+        .conditionMessageText {
+            color: @mainColor;
+            font-size: 20px;
+            line-height: 32px;
+            padding-bottom: 40px;
+        }
+    }
+
+    .arrivalsLine {
+        margin: 90px 0 40px 90px;
+    }
+
+    .arrivals {
+        display: flex;
+        flex-direction: row;
+        margin: 0 90px 90px 90px;
+
+        .arrivalsLine {
+            width: 88%;
+        }
+
+        .arrivalsBlock {
+            align-items: center;
+
+            &:first-of-type {
+                background: @arrivalsColor1;
+                width: 25%;
+                height: 700px;
+            }
+
+            &:nth-of-type(2) {
+                background: @arrivalsColor2;
+                width: 25%;
+                height: 700px;
+            }
+
+            &:nth-of-type(3) {
+                background: @arrivalsColor3;
+                width: 25%;
+                height: 700px;
+            }
+
+            &:last-of-type {
+                background: @arrivalsColor4;
+                width: 25%;
+                height: 700px;
+            }
+        }
+    }
+
+    .offerMessage {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+        padding-top: 300px;
+        padding-bottom: 100px;
+
+        .offerMessageTitle {
+            color: @mainColor;
+            font-size: 50px;
+            text-transform: uppercase;
+            padding-bottom: 25px;
+        }
+
+        .offerMessageText {
+            color: @mainColor;
+            font-size: 20px;
+            line-height: 32px;
+            padding-bottom: 40px;
+        }
+    }
+
+    .shopLine {
+        margin: 90px 0 40px 90px;
+
+        .shopTitle {
+            &:nth-of-type(2) {
+                margin-left: 90px;
+            }
+        }
+    }
+
+    .shop {
+        display: flex;
+        flex-direction: row;
+        margin: 0 90px 0 90px;
+
+        .shopCascade {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+
+            .shopCascadeLeft {
+                width: 50%;
+                display: flex;
+                flex-direction: row;
+                background: @shopColor1;
+
+                .shopCascadeBig {
+                    width: 100%;
+                    height: 600px;
+                }
+            }
+
+            .shopCascadeRight {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+
+                .shopCascadeRightUp {
+                    width: 100%;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: flex-end;
+
+                    .shopCascadeSmall {
+
+                        &:first-of-type {
+                            background: @shopColor2;
+                            width: 50%;
+                            height: 300px;
+                        }
+
+                        &:last-of-type {
+                            background: @shopColor3;
+                            width: 50%;
+                            height: 300px;
+                        }
+                    }
+                }
+
+                .shopCascadeRightDown {
+                    width: 100%;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-end;
+
+                    .shopCascadeSmall {
+
+                        &:first-of-type {
+                            background: @shopColor4;
+                            width: 50%;
+                            height: 300px;
+                        }
+
+                        &:last-of-type {
+                            background: @shopColor5;
+                            width: 50%;
+                            height: 300px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .underShop {
+        margin: 40px 0 40px 90px;
+
+        .shopTitle {
+            &:nth-of-type(2) {
+                margin-left: 90px;
+            }
+        }
+    }
+
+    .under {
+        display: flex;
+        justify-content: space-around;
+
+        .underBlock {
+            width: 25%;
+            padding: 4%;
+
+            p {
+                line-height: 20px;
             }
         }
     }

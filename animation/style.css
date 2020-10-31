@@ -1,0 +1,23 @@
+body {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.class {
+    margin: 200px;
+    width: 100px;
+    height: 100px;
+    animation: 3s ease-in 1s infinite reverse both running slidein;
+}
+
+@keyframes {
+    0% {
+        transform: scaleX(1);
+    }
+    50% {
+        transform: scaleX(2);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}

@@ -1,0 +1,16 @@
+@blue: #00b3ff;
+@white: #ffffff;
+@cyan: cyan;
+
+body {
+    background: @blue;
+}
+
+.first p {
+    color: @white;
+
+    &.add,
+    &:hover {
+        color: @cyan;
+    }
+}
