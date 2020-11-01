@@ -409,19 +409,38 @@
             align-items: center;
         }
 
+        .underFormTitle {
+            font-size: 24px;
+            padding: 5px;
+        }
+
+        .underFormText {
+            font-size: 16px;
+            padding: 5px;
+        }
+
         .underInput {
+            padding: 10px;
             width: 33%;
             margin: 0 auto;
             display: flex;
             flex-direction: row;
             align-items: center;
+            border-bottom: 1px solid @underLineForm;
 
             input {
                 width: 80%;
+                outline: none;
+                border: none;
             }
 
             button {
                 width: 20%;
+                background: @white;
+                outline: none;
+                border: none;
+                text-align: end;
+                font-size: 24px;
             }
         }
 
