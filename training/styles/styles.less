@@ -1,0 +1,110 @@
+@backgroundColor: #301b28;
+@blockColor: #523634;
+@elementColorActive: #a6351c;
+@elementColor: #b6452c;
+@elementColorHover: #c6553c;
+@elementShadow: #696969;
+@textColor: #edd5b2;
+
+
+:root {
+    font-size: calc(8px + 1rem);
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 80%;
+    margin: 2rem auto;
+    background-color: @backgroundColor;
+
+    nav {
+        width: 100%;
+        height: 200px;
+        margin: 2rem 0;
+        border-radius: 5rem;
+        padding: 3rem;
+        box-sizing: border-box;
+        background-color: @blockColor;
+
+        .list {
+            display: flex;
+            flex-direction: row;
+
+            .listElement {
+                width: 20%;
+
+                button {
+                    font-size: calc(8px + 1vw);
+                    margin: 0.5rem;
+                    width: 80%;
+                    text-align: center;
+                    border-radius: 3rem;
+                    border: 0;
+                    outline: 0;
+                    background-color: @elementColor;
+                    color: @textColor;
+
+                    &:hover {
+                        background-color: @elementColorHover;
+                        color: @textColor;
+                        box-shadow: -2px -2px 8px @elementShadow;
+                    }
+
+                    &:active {
+                        background-color: @elementColorActive;
+                        color: @textColor;
+                        box-shadow: inset 2px 2px 8px @elementShadow;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        width: 100%;
+        height: 600px;
+        margin: 1rem 0;
+        border-radius: 5rem;
+        padding: 1.5rem;
+        box-sizing: border-box;
+        background-color: @blockColor;
+
+        .mainInfo{
+            font-size: calc(8px + 1vw);
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            border-radius: 3rem;
+            border: 0;
+            background-color: @elementColor;
+            color: @textColor;
+        }
+    }
+
+    footer {
+        width: 100%;
+        height: 200px;
+        margin: 2rem 0;
+        border-radius: 5rem;
+        padding: 3rem;
+        box-sizing: border-box;
+        background-color: @blockColor;
+
+        .footerAbout {
+            margin: 0 auto;
+            width: 50%;
+            background-color: @elementColor;
+            border-radius: 3rem;
+
+            p {
+                color: @textColor;
+                text-align: center;
+            }
+        }
+    }
+
+}
