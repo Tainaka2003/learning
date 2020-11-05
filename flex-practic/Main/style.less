@@ -1,0 +1,61 @@
+@import url("../styles/main.less"); /* здесь переменные + стили самого сайта */
+
+body {
+    max-width: 940px;
+    margin: 0 auto;
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid @borderLine;
+
+        .list {
+            padding: 1.7rem;
+            color: @textColor;
+
+            a {
+                text-decoration: none;
+                color: @textColor;
+                transition-duration: 0.2s;
+
+                &:hover {
+                    color: @hoverColor;
+                    transition-duration: 0.2s;
+                    cursor: pointer;
+                }
+
+                &:active {
+                    color: @activeColor;
+                }
+            }
+        }
+    }
+
+    article {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        .name-profession:first-of-type {
+            font-size: 2.4rem;
+            font-weight: 600;
+            padding-top: 2.2rem;
+        }
+
+        .name-profession:nth-of-type(2) {
+            font-size: 1rem;
+        }
+
+        .name-profession:last-of-type {
+            font-size: 0.8rem;
+            transform: rotate(270deg);
+            padding-left: 1rem;
+
+            .selected {
+                font-weight: 600;
+            }
+        }
+    }
+}
