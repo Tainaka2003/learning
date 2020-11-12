@@ -1,0 +1,29 @@
+body {
+	
+}
+
+.chess {
+	display: grid;
+	grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+	grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+	border: 2px solid black;
+	width: 50vw;
+	height: 50vw;
+	margin: 0 auto;
+}
+
+.chess > * {
+	text-align: center;
+}
+
+.chess div:nth-of-type(16n+2), 
+.chess div:nth-of-type(16n+4), 
+.chess div:nth-of-type(16n+6),
+.chess div:nth-of-type(16n+8),
+.chess div:nth-of-type(16n+9),
+.chess div:nth-of-type(16n+11),
+.chess div:nth-of-type(16n+13),
+.chess div:nth-of-type(16n+15){
+	background-color: #000;
+	color: #fff;
+}
