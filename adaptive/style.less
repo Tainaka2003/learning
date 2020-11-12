@@ -1,4 +1,142 @@
-body {
-    width: 1080px;
-    background-color: #ffe1e1;
+:root{
+    box-sizing: border-box;
+    font-size: calc(1vw + 0.6em);
 }
+
+body{
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+/*******************************************
+********** ССЫЛКИ *************************
+*******************************************/
+a:link{
+    color: #fefefe;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:visited{
+    color: #8888ff;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: #b49999;
+}
+/*******************************************
+************** ШАПКА  *********************
+*******************************************/
+header{
+    padding: 0.5em 1em;
+    background: #fff;
+
+    .title > h1 {
+        color:#333;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        margin: .25em 0;
+
+        @media only screen and (min-width: 600px) {
+            font-size: 2.2rem;
+        }
+    }
+
+    .slogan{
+        color: #888;
+        font-size: .8em;
+        margin: 0;
+    }
+}
+/*******************************************
+************** ASIDE  *********************
+*******************************************/
+.hero{
+    padding: 2em 1.5em;
+    text-align: center;
+    background: url(coffee-beans.jpg);
+    background-size: 100%;
+    color: #fff;
+    text-shadow: 0.1em 0.1em 0.3em #000;
+}
+/*******************************************
+************** MAIN  *********************
+*******************************************/
+main{
+    padding: 1.2em;
+
+    .subtitle{
+        margin-top: 1.2em;
+        margin-bottom: 1.2em;
+        font-size: 0.8em;
+        text-transform: uppercase;
+    }
+}
+/*******************************************
+************** Menu  *********************
+*******************************************/
+.menu{
+    position: relative;
+
+    .menu-toggle{
+        position: absolute;
+        top: -1.2em;
+        right: 0em;
+        border:0;
+        background-color: transparent;
+        font-size: 3.1em;
+        width: 1em;
+        height: 1em;
+        line-height: 0.4em;
+        overflow: hidden;
+        white-space: nowrap;
+        text-indent: 5em;
+
+        &::after{
+            position: absolute;
+            top: 0.4em;
+            left: 0.1em;
+            display: block;
+            content: "\2261";
+            text-indent:0;
+        }
+    }
+
+    .menu-dropdown{
+        display: none;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 0;
+
+        .nav-menu {
+            margin: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            padding: 2em 1.5em;
+            background-color: #0C1014;
+
+            & > li {
+                padding: .3em;
+            }
+
+            & > li + li {
+                border-top: 1px solid #ccc;
+            }
+
+            & > li > a {
+                display: block;
+                padding: .7em 1em;
+                color: #fff;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.menu.is-open .menu-dropdown {
+    display: block;
+}
+
