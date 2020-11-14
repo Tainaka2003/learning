@@ -67,7 +67,7 @@ body {
 .fullPage nav .navElement:hover {
 	width: 15%;
 	background-color: #fbb;
-	transition-duration: 2.2s
+	transition-duration: 2.2s;
 	border: 0;
 	outline: none;
 	cursor: pointer;
@@ -77,7 +77,7 @@ body {
 	width: 15%;
 	background-color: #fbb;
 	box-shadow: inset 2px 2px 10px #898989;
-	transition-duration: .08s
+	transition-duration: .08s;
 	border: 0;
 	outline: none;
 	cursor: pointer;
