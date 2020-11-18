@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Спросить имя</title>
+</head>
+<body>
+<script type="text/javascript">
+	accessToQuestionName = confirm('Добрый день, желаете ли Вы оставь немного своих данных?');
+	if (accessToQuestionName == true) 
+	{
+		let nameUser = prompt('Представьтесь пожалуйста!', 'Аноним');
+		if (nameUser == null)
+		{
+			nameUser = 'Аноним';
+		}
+		alert('Привет, ' + nameUser + '! Спасибо, что Вы с нами!');
+	}
+	else
+	{
+		alert('Приносим извинения за агрессивный маркетинг(');
+	}
+</script>
+</body>
+</html>
