@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    // let age = prompt('Введите Ваш возраст!','');
+    // if (age >= 14 && age <= 90)
+    // {
+    //     alert('Добро пожаловать на сайт!');
+    // }
+    // else
+    // {
+    //     alert('Вы либо слишком молоды, либо уснули на клаве. Перезапустите страницу, чтобы повторить вход.');
+    // }
+
+    // let age = prompt('Введите Ваш выдуманный возраст!','');
+    // if (age < 14 && age > 90)
+    // {
+    //     alert('Добро пожаловать на сайт!');
+    // }
+    // else
+    // {
+    //     alert('Зря вы говорите правду, у нас тут этого не любят. Перезапустите страницу, чтобы повторить вход.');
+    // }
+
+    let loginAdmin = 'Admin';
+    let passwordAdmin = 'Qwerty1234';
+
+    let signInStep1 = prompt('Введите логин');
+    let signInStep2;
+    if (signInStep1 == loginAdmin)
+    {
+        signInStep2 = prompt('Введите пароль');
+        if (signInStep2 == passwordAdmin)
+        {
+            alert('Здравствуйте!');
+        }
+        else
+        {
+            alert('До свидания!');
+        }
+    }
+    else
+    {
+        alert ('Вход только для админов!');
+    }
+</script>
+</body>
+</html>
