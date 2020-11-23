@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let action = prompt('Введите действие, которое вы хотите совершить (можно текстом, можно цифрой):' +
+        '\n1 - Сложение\n2 - Вычитание\n3 - Умножение\n4 - Деление', '');
+    //
+    let firstLet = Number(prompt('Введите первое число', ''));
+    let secondLet = Number(prompt('Введите первое число', ''));
+    let result;
+    //
+    switch (action) {
+        case '1':
+        case '+':
+        case 'Сложение':
+            result = firstLet + secondLet;
+            break;
+        case '2':
+        case '-':
+        case 'Вычитание':
+            result = firstLet - secondLet;
+            break;
+        case '3':
+        case '*':
+        case 'Умножение':
+            result = firstLet * secondLet;
+            break;
+        case '4':
+        case '/':
+        case 'Деление':
+            result = firstLet / secondLet;
+            break;
+    }
+    alert('Результат равен ' + result);
+</script>
+</body>
+</html>
