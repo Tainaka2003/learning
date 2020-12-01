@@ -1,0 +1,1 @@
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIUfspmyLhUok+66PtOm2DgC1cRoBQKBvE9CpLtQtMd5 di.mlik@yandex.ru
