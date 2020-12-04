@@ -1,0 +1,25 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul li {
+  font-family: 'Tahoma', 'Geneva', 'sans', 'serif', 'sans-serif';
+  font-size: 36pt;
+  list-style: none;
+  background: #ffaaaa;
+  border-radius: 5rem;
+  text-align: center;
+  width: 15%;
+  transition-duration: 0.8s;
+}
+ul li:hover {
+  width: 20%;
+  transition-duration: 0.5s;
+}
+
+ul li:active {
+  box-shadow: inset 3px 3px 12px #696969;
+  transition-duration: 0.2s;
+}
