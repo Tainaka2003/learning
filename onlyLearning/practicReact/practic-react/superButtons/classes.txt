@@ -1,0 +1,120 @@
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline: 0;
+  border: 0;
+  margin: 20px; /*Вырезать*/
+  
+  &.regular {
+    font-size: 13px;
+    line-height: 15px;
+    border-radius: 8px;
+    width: 146px;
+    height: 46px;
+    padding: 15px 50px;
+    
+    
+    &.dark {
+      background: #F07C87;
+      color: #FFFFFF;
+      
+      &:hover {
+        background: #E25865;
+      }
+    }
+    
+    &.light {
+      background: #FFE9EB;
+      color: #F07C87;
+      
+      &:hover {
+        background: #FFD7DA;
+      }
+    }
+    
+    &.tag {
+      padding: 4px 10px;
+      border-radius: 20px;
+      border: 1px solid #FFE9EB;
+      box-size: border-box;
+      font-size: 10px;
+      line-height: 12px;
+      color: #F07C87;
+      width: 79px;
+      height: 20px;
+      
+      &:hover {
+        background: #F07C87;
+        color: #FFFFFF;
+      }
+    }
+  }
+  
+  &.simple {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 6px;
+    
+    &.white {
+      width: 168px;
+      height: 28px;
+      background: #FFFFFF;
+      color: #000000;
+      
+      &:hover {
+        color: #F07C87;
+      }
+      
+    }
+    
+    &.black {
+      width: 168px;
+      height: 28px;
+      background: #333333;
+      color: #FFFFFF;
+      
+      &:hover {
+        color: #F07C87;
+      }
+    }
+  }
+  
+  &.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+    padding: 14px 0;
+    border-radius: 8px;
+    box-shadow: border-box;
+    
+    &.light {
+      display: flex;
+      padding: 10px 14px;
+      font-size: 10px;
+      line-height: 12px;
+      background: #ffffff;
+      box-shadow: border-box;
+      
+      &.added {
+        display: flex;
+        padding: 10px 14px;
+        font-size: 10px;
+        line-height: 12px;
+        background: #ffffff;
+        box-shadow: border-box;
+      }
+    }
+    
+    &.filled {
+      background: #FFE9EB;
+      
+      &:hover {
+        background: #FFD7DA;
+      }
+    }
+  }
+}

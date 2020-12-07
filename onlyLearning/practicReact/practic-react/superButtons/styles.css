@@ -1,0 +1,102 @@
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline: 0;
+  border: 0;
+  margin: 20px;
+  /*Вырезать*/
+}
+.button.regular {
+  font-size: 13px;
+  line-height: 15px;
+  border-radius: 8px;
+  width: 146px;
+  height: 46px;
+  padding: 15px 50px;
+}
+.button.regular.dark {
+  background: #F07C87;
+  color: #FFFFFF;
+}
+.button.regular.dark:hover {
+  background: #E25865;
+}
+.button.regular.light {
+  background: #FFE9EB;
+  color: #F07C87;
+}
+.button.regular.light:hover {
+  background: #FFD7DA;
+}
+.button.regular.tag {
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid #FFE9EB;
+  box-size: border-box;
+  font-size: 10px;
+  line-height: 12px;
+  color: #F07C87;
+  width: 79px;
+  height: 20px;
+}
+.button.regular.tag:hover {
+  background: #F07C87;
+  color: #FFFFFF;
+}
+.button.simple {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 6px;
+}
+.button.simple.white {
+  width: 168px;
+  height: 28px;
+  background: #FFFFFF;
+  color: #000000;
+}
+.button.simple.white:hover {
+  color: #F07C87;
+}
+.button.simple.black {
+  width: 168px;
+  height: 28px;
+  background: #333333;
+  color: #FFFFFF;
+}
+.button.simple.black:hover {
+  color: #F07C87;
+}
+.button.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  padding: 14px 0;
+  border-radius: 8px;
+  box-shadow: border-box;
+}
+.button.icon.light {
+  display: flex;
+  padding: 10px 14px;
+  font-size: 10px;
+  line-height: 12px;
+  background: #ffffff;
+  box-shadow: border-box;
+}
+.button.icon.light.added {
+  display: flex;
+  padding: 10px 14px;
+  font-size: 10px;
+  line-height: 12px;
+  background: #ffffff;
+  box-shadow: border-box;
+}
+.button.icon.filled {
+  background: #FFE9EB;
+}
+.button.icon.filled:hover {
+  background: #FFD7DA;
+}
