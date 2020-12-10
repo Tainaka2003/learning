@@ -1,5 +1,4 @@
 import React, {Component} from "react"
-import "./../styles/styles.less"
 
 
 export default class Blocks extends Component {
@@ -43,9 +42,9 @@ export default class Blocks extends Component {
                 <div>
                     {items.map(item => (
                         <div key={item.name}>
-                            <img src={item.img} alt="sport"/>
-                            {item.name}
-                            {item.description}
+                            <img src={item.img} alt="sport"/><br/>
+                            <p>{item.name}</p> <br/>
+                            <span>{item.description}</span>
                         </div>
                     ))}
                 </div>
