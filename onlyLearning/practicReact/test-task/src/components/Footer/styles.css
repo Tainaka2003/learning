@@ -1,8 +1,11 @@
 .footer {
+    display: flex;
+    justify-content: center;
     border-top: 1px solid #D6D7D9;
 }
 
 .footer .footerText {
+    text-align: center;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;

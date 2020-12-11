@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import Card from './../../components/Card/styles.css'
+import Card from './../../components/Card/index'
 import './styles.css'
 
 export default class Main extends Component {
@@ -8,7 +8,8 @@ export default class Main extends Component {
         this.state = {
             error: null,
             isLoaded: false,
-            items: []
+            items: [],
+            cards: []
         };
     }
 
@@ -19,7 +20,7 @@ export default class Main extends Component {
                 (result) => {
                     this.setState({
                             isLoaded: true,
-                        cards: result.cards
+                            cards: result.cards
                         }
                     );
                 },
@@ -33,20 +34,18 @@ export default class Main extends Component {
     }
 
     render() {
-        const {error, isLoaded, cards} = this.state;
-        if (error) {
-            return <p>Error {error.message}</p>
-        } else if(!isLoaded) {
-            return <p>Success</p>
-        } else {
-            return (
-                <div>
-                    {cards
-                        .map(cards => (
-                            <Card />
-                    ))}
-                </div>
-            )
-        }
+        const {cards} = this.state;
+
+        return (
+            <div>
+                {cards.map(card =>
+                    <Card
+                        img={card.img}
+                        name={card.name}
+                        description={card.description}
+                    />
+                )}
+            </div>
+        )
     }
 }
