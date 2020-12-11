@@ -1,7 +1,8 @@
 import React, {Component} from "react"
+import Svg from './svg/svg';
+import './styles.css'
 
-
-export default class Blocks extends Component {
+export default class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -18,7 +19,7 @@ export default class Blocks extends Component {
                 (result) => {
                     this.setState({
                             isLoaded: true,
-                            items: result. cards
+                            userData: result.userData
                         }
                     );
                 },
@@ -32,21 +33,20 @@ export default class Blocks extends Component {
     }
 
     render() {
-        const {error, isLoaded, items} = this.state;
+        const {error, isLoaded, userData} = this.state;
         if (error) {
             return <p>Error {error.message}</p>
-        } else if(!isLoaded) {
+        } else if (!isLoaded) {
             return <p>Success</p>
         } else {
             return (
                 <div>
-                    {items.map(item => (
-                        <div key={item.name}>
-                            <img src={item.img} alt="sport"/><br/>
-                            <p>{item.name}</p> <br/>
-                            <span>{item.description}</span>
-                        </div>
-                    ))}
+                    <div>
+                        <Svg />
+                    </div>
+                    <div>
+                        <h2>Hi {userData.name} Here’s your weekly updates 👀️</h2>
+                    </div>
                 </div>
             )
         }

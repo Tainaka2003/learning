@@ -1,0 +1,25 @@
+img {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 560px;
+}
+
+p {
+    width: 540px;
+    margin: 16px 0 24px 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+}
+
+span {
+    display: inline-block;
+    width: 540px;
+    margin: 0 0 56px 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}

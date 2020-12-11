@@ -1,13 +1,17 @@
-import './App.css';
-import './pages/index.js'
-import './styles/styles.less'
-import './index.js'
-import Blocks from "./../src/pages/index";
+import './styles/main.css';
+import './index.js';
+import Header from "./components/Header/index.js";
+import Main from "./pages/Main/index.js";
+import Footer from "./components/Footer/index.js";
 
 function App() {
-  return (
-      <Blocks />
-  );
+    return (
+        <div>
+            <Header/>
+            <Main/>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
