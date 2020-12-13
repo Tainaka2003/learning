@@ -6,7 +6,7 @@ import Footer from "./components/Footer/index.js";
 
 function App() {
     return (
-        <div>
+        <div className={"container"}>
             <Header/>
             <Main/>
             <Footer/>

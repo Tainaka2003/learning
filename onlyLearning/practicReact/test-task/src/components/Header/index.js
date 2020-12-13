@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import Svg from './svg/svg';
+import Svg from './svg/index.js';
 import './styles.css'
 
 export default class Header extends Component {
@@ -40,12 +40,12 @@ export default class Header extends Component {
             return <p>Success</p>
         } else {
             return (
-                <div>
-                    <div>
+                <div className={"header"}>
+                    <div className={"logoCont"}>
                         <Svg />
                     </div>
-                    <div>
-                        <h2>Hi {userData.name} Here’s your weekly updates 👀️</h2>
+                    <div className={"greetingCont"}>
+                        <h2 className={"greeting"}>Hi {userData.name}! Here’s your weekly updates 👀️</h2>
                     </div>
                 </div>
             )

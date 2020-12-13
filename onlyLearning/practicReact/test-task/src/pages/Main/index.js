@@ -37,11 +37,12 @@ export default class Main extends Component {
         const {cards} = this.state;
 
         return (
-            <div>
+            <div className={"main"}>
                 {cards.map(card =>
                     <Card
                         img={card.img}
                         name={card.name}
+                        isNew={card.isNew}
                         description={card.description}
                     />
                 )}

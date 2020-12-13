@@ -1,23 +1,56 @@
-img {
-    margin: 0 auto;
+.json {
     display: flex;
-    justify-content: center;
-    width: 560px;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
-p {
-    width: 540px;
+.json .img {
+    width: 100%;
+    height: 204px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.json .caption {
+    display: flex;
+    flex-direction: row;
+}
+
+.json .caption .name {
+    display: flex;
+    justify-content: left;
+    margin: 24px 0 16px 0;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 22px;
 }
 
-span {
-    display: inline-block;
-    width: 540px;
+.json .caption .isNew {
+    width: 64px;
+    height: 24px;
+    margin-top: 25px;
+    margin-left: 12px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #1890FF;
+    background: #ffffff;
+    text-decoration: none;
+    padding: 0 20px;
+    border: 1px solid #1890FF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    outline: none;
+}
+
+.json .description {
+    margin-bottom: 56px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
+    color: #515759;
 }
