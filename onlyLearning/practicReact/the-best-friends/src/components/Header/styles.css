@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header .headerLeftPart {
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+}
+
+.header .headerLeftPart .headerCaption {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .headerCenterPart {
+    width: 60%;
+}
+
+.header .headerCenterPart .navMenu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header .headerCenterPart .navMenu .navElement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header .headerRightPart {
+
+}
+
+.header .headerRightPart .rightOffer {
+    width: 150px;
+    height: 45px;
+}
