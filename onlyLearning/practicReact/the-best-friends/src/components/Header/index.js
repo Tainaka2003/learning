@@ -8,20 +8,21 @@ function Header() {
             <div className={"headerLeftPart"}>
                 <Logo />
                 <div className={"headerCaption"}>
-                    LaslesVPN
+                    <span className={"headerCaptionName"}>Лучшие</span>
+                    <span className={"headerCaptionName"}>друзья</span>
                 </div>
             </div>
             <div className={"headerCenterPart"}>
                 <ul className={"navMenu"}>
-                    <li className={"navElement"}>About</li>
-                    <li className={"navElement"}>Features</li>
-                    <li className={"navElement"}>Pricing</li>
-                    <li className={"navElement"}>Help</li>
+                    <li className={"navElement"}><a className={"navAnchor"} href="#">Новости</a></li>
+                    <li className={"navElement"}><a className={"navAnchor"} href="#">Состав</a></li>
+                    <li className={"navElement"}><a className={"navAnchor"} href="#">Проекты</a></li>
+                    <li className={"navElement"}><a className={"navAnchor"} href="#">Другое</a></li>
                 </ul>
             </div>
             <div className={"headerRightPart"}>
                 <button className={"rightOffer"}>
-                    Offer
+                    Подружиться
                 </button>
             </div>
         </header>

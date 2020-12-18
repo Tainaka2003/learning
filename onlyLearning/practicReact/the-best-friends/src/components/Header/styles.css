@@ -7,18 +7,32 @@
 .header .headerLeftPart {
     display: flex;
     flex-direction: row;
-    width: 15%;
+    width: 18%;
 }
 
 .header .headerLeftPart .headerCaption {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.header .headerLeftPart .headerCaption .headerCaptionName {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.header .headerLeftPart .headerLogo .headerLogoImg {
+    width: 60px;
+    height: 60px;
 }
 
 .header .headerCenterPart {
-    width: 60%;
+    width: 50%;
 }
 
 .header .headerCenterPart .navMenu {
@@ -26,19 +40,74 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    margin: 0;
 }
 
 .header .headerCenterPart .navMenu .navElement {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    height: 60px;
 }
 
-.header .headerRightPart {
+.header .headerCenterPart .navMenu .navElement .navAnchor {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F5665;
+    text-decoration: none;
+    transition-duration: .2s;
+}
 
+.header .headerCenterPart .navMenu .navElement .navAnchor:hover {
+    color: #8F96a5;
+    text-decoration: none;
+    transition-duration: .2s;
+}
+
+.header .headerCenterPart .navMenu .navElement .navAnchor:active {
+    color: #aFb6c5;
+    text-decoration: none;
+    transition-duration: .2s;
+}
+
+
+.header .headerRightPart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 32%;
 }
 
 .header .headerRightPart .rightOffer {
-    width: 150px;
-    height: 45px;
+    width: 180px;
+    height: 60px;
+    background: #ffffff;
+    border: 2px solid #F53855;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+    transition-duration: 0.2s;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53855;
+}
+
+.header .headerRightPart .rightOffer:hover {
+    width: 180px;
+    height: 60px;
+    color: #ffffff;
+    background: #F53855;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+    transition-duration: 0.2s;
 }
