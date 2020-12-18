@@ -1,0 +1,60 @@
+.main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main .mainLeftPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main .mainLeftPart .mainContentCaption {
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 70px;
+    color: #0B132A;
+}
+
+.main .mainLeftPart .mainContentText {
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.main .mainLeftPart .mainButton {
+    display: flex;
+    justify-content: center;
+}
+
+.main .mainLeftPart .mainButton .mainOffer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F53855;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 200px;
+    height: 60px;
+    transition-duration: .2s;
+}
+
+.main .mainLeftPart .mainOffer:hover {
+    border: 2px solid #F53855;
+    background: #ffffff;
+    color: #F53855;
+    transition-duration: .2s;
+}

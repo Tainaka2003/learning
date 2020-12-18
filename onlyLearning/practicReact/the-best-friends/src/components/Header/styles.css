@@ -7,7 +7,7 @@
 .header .headerLeftPart {
     display: flex;
     flex-direction: row;
-    width: 18%;
+    width: 20%;
 }
 
 .header .headerLeftPart .headerCaption {
@@ -32,7 +32,7 @@
 }
 
 .header .headerCenterPart {
-    width: 50%;
+    width: 60%;
 }
 
 .header .headerCenterPart .navMenu {
@@ -78,13 +78,17 @@
 .header .headerRightPart {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     height: 60px;
-    width: 32%;
+    width: 20%;
 }
 
 .header .headerRightPart .rightOffer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 180px;
     height: 60px;
     background: #ffffff;

@@ -8,8 +8,12 @@ function Header() {
             <div className={"headerLeftPart"}>
                 <Logo />
                 <div className={"headerCaption"}>
-                    <span className={"headerCaptionName"}>Лучшие</span>
-                    <span className={"headerCaptionName"}>друзья</span>
+                    <span className={"headerCaptionName"}>
+                        Лучшие
+                    </span>
+                    <span className={"headerCaptionName"}>
+                        друзья
+                    </span>
                 </div>
             </div>
             <div className={"headerCenterPart"}>
