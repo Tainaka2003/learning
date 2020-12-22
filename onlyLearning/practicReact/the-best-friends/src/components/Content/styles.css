@@ -24,7 +24,7 @@
     font-style: normal;
     text-align: center;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 30px;
     color: #4F5665;
 }
@@ -38,10 +38,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #F53855;
+    background: #080808;
     border-radius: 10px;
     outline: none;
-    border: 2px solid #ffffff;
+    border: 2px solid #080808;
+    box-shadow: 10px 20px 20px #08080840;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -53,8 +54,23 @@
 }
 
 .main .mainLeftPart .mainOffer:hover {
-    border: 2px solid #F53855;
+    border: 2px solid #080808;
     background: #ffffff;
-    color: #F53855;
+    color: #080808;
     transition-duration: .2s;
+}
+
+@media (max-width: 1024px) {
+
+    .mainRightPart .mainPicture {
+        display: none;
+    }
+
+    .main .mainLeftPart .mainContentCaption {
+        margin-bottom: 20px;
+    }
+
+    .main .mainLeftPart .mainContentText {
+        margin-bottom: 20px;
+    }
 }

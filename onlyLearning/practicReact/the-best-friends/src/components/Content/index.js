@@ -8,14 +8,14 @@ function Content() {
         <main className={"main"}>
             <div className={"mainLeftPart"}>
                 <span className={"mainContentCaption"}>
-                    Лучшие друзья всегда тебе помогут!
+                    Слушайте крутую музыку с нами!
                 </span>
                 <span className={"mainContentText"}>
-                    У нас есть, чем тебя можно удивить)
+                    Более тысячи человек уже оценили подборку самых интересных композиций. Попробуйте и Вы - и станете крутым!
                 </span>
                 <div className={"mainButton"}>
                     <button className={"mainOffer"}>
-                        К проектам
+                        Стать крутым
                     </button>
                 </div>
             </div>

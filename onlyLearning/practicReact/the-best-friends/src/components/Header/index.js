@@ -9,24 +9,24 @@ function Header() {
                 <Logo />
                 <div className={"headerCaption"}>
                     <span className={"headerCaptionName"}>
-                        Лучшие
+                        Крутая
                     </span>
                     <span className={"headerCaptionName"}>
-                        друзья
+                        музыка
                     </span>
                 </div>
             </div>
             <div className={"headerCenterPart"}>
                 <ul className={"navMenu"}>
-                    <li className={"navElement"}><a className={"navAnchor"} href="#">Новости</a></li>
-                    <li className={"navElement"}><a className={"navAnchor"} href="#">Состав</a></li>
-                    <li className={"navElement"}><a className={"navAnchor"} href="#">Проекты</a></li>
-                    <li className={"navElement"}><a className={"navAnchor"} href="#">Другое</a></li>
+                    <li className={"navElement"}><a className={"navAnchor"} href="#">История</a></li>
+                    <li className={"navElement"}><a className={"navAnchor"} href="#">Хиты</a></li>
+                    <li className={"navElement"}><a className={"navAnchor"} href="#">О нас</a></li>
+                    <li className={"navElement"}><a className={"navAnchor"} href="#">Контакты</a></li>
                 </ul>
             </div>
             <div className={"headerRightPart"}>
                 <button className={"rightOffer"}>
-                    Подружиться
+                    Стать крутым
                 </button>
             </div>
         </header>
