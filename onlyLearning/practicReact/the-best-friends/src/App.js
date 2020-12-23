@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Content from "./components/Content";
 import Cascade from "./components/Cascade";
 import './styles/main.css'
+import News from "./components/News";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
             <Header />
             <Content />
             <Cascade />
+            <News />
         </div>
     );
 }

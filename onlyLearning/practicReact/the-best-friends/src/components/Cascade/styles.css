@@ -3,6 +3,9 @@
     justify-content: space-around;
     flex-direction: row;
     margin-top: 100px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+    box-shadow: 0 3px 0 #0D1025;
 }
 
 .cascade .cascadeElement {

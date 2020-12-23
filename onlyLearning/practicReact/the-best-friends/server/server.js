@@ -3,7 +3,9 @@ const express = require('express');
 let cors = require('cors');
 const bodyParser = require('body-parser');
 const logger = require('morgan');
-const watchesData = require('./getWatchesData');
+const newsData = require('./getNewsData');
+const productsData = require('./getProductsData');
+const devsData = require('./getDevsData');
 
 const API_PORT = 3001;
 const app = express();
@@ -28,93 +30,23 @@ app.use(logger('dev'));
 // get
 
 router.get('/getNewsData', (req, res) => {
-    watchesData.find((err, data) => {
+    newsData.find((err, data) => {
         if (err) return res.json({ success: false, error: err });
         return res.json({ success: true, data: data });
     });
 });
 
 router.get('/getProductsData', (req, res) => {
-    watchesData.find((err, data) => {
+    productsData.find((err, data) => {
         if (err) return res.json({ success: false, error: err });
         return res.json({ success: true, data: data });
     });
 });
 
 router.get('/getDevsData', (req, res) => {
-    watchesData.find((err, data) => {
+    devsData.find((err, data) => {
         if (err) return res.json({ success: false, error: err });
         return res.json({ success: true, data: data });
-    });
-});
-
-// update
-
-router.post('/updateWatchesData', (req, res) => {
-    const { _id, update } = req.body;
-    watchesData.findByIdAndUpdate(_id, update, (err) => {
-        if (err) return res.json({ success: false, error: err });
-        return res.json({ success: true });
-    });
-});
-
-// delete
-
-router.delete('/deleteWatchesData', (req, res) => {
-    const { _id } = req.body;
-    watchesData.findByIdAndRemove(_id, (err) => {
-        if (err) return res.send(err);
-        return res.json({ success: true });
-    });
-});
-
-// put
-
-router.post('/putWatchesData', (req, res) => {
-    let data = new watchesData();
-
-    const {
-        _id,
-        name,
-        brand,
-        material,
-        glass,
-        mechanism,
-        coating,
-        price,
-        rating,
-        img
-    } = req.body;
-
-    if ((!_id && _id !== 0)
-        || !name
-        || !brand
-        || !material
-        || !glass
-        || !mechanism
-        || !coating
-        || !price
-        || !rating
-        || !img) {
-
-        return res.json({
-            success: false,
-            error: 'INVALID INPUTS',
-        });
-    }
-    data.name = name;
-    data.brand = brand;
-    data.material = material;
-    data.glass = glass;
-    data.mechanism = mechanism;
-    data.coating = coating;
-    data.price = price;
-    data.rating = rating;
-    data.img = img;
-    data._id = _id;
-    data.save((err) => {
-        if (err) return res.json({ success: false, error: err });
-        return res.json({ success: true });
     });
 });
 
