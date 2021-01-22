@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <style>
+        .guild {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .guildName {
+            width: 70%;
+            height: 200px;
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 20px;
+        }
+
+        .description {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="root"></div>
+
+<script type="text/babel">
+
+    function Gamer(props) {
+        return (
+            <div className="guild">
+                <div className="guildName">
+                    <p className="title">{props.name}</p>
+                    <p className="description">{props.description}</p>
+                </div>
+            </div>
+        )
+    }
+
+    const App = (
+        <div className="guild">
+            <Gamer name="Prostopopez" description="Любит аот, дарк соси и веб" />
+            <Gamer name="ClassniChuvak" description="Знает всё и немного делает музыку" />
+            <Gamer name="VelikiyKrist" description="Мощный амонгассер нашего времени" />
+            <Gamer name="Ritis" description="Рисовач, ММД-шер, БС-ер" />
+            <Gamer name="Order" description="Любит Юнити и вообще моддер" />
+            <Gamer name="Rantom" description="Самый быстрый ремикс в рокет лиге" />
+            <Gamer name="Remi4508" description="Шарит в Линуксе" />
+            <Gamer name="Demer" description="Играет в каес и живёт в Европе" />
+            <Gamer name="Tanaika03" description="Хочет завоевать мир" />
+        </div>
+    )
+
+    ReactDOM.render(
+        App,
+        document.querySelector('#root')
+    );
+
+</script>
+</body>
+</html>
