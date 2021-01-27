@@ -9,18 +9,18 @@
 }
 
 .App .nav .anchor {
-    color: #00af88;
+    color: #41b3a3;
     text-decoration: none;
     text-align: center;
-    font-family: 'Tahoma', sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
     font-size: 24px;
     line-height: 50px;
 }
 
 .App .nav .anchor:hover {
-    color: #00cf88;
+    color: #85dcbb;
 }
 
 .App .nav .anchor:active {
-    color: #ffaf88;
+    color: #e8a87c;
 }
