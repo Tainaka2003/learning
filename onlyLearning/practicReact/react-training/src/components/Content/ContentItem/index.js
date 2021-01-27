@@ -10,7 +10,7 @@ const ContentItem = (props) => {
                 <p className={"paragraph"}>{props.name}</p>
                 <p className={"paragraph"}>Год: {props.year}</p>
                 <p className={"paragraph"}>Жанр: {props.type}</p>
-                { props.children }
+                <p className={"description"}>{props.description}</p>
             </div>
         </div>
     )
