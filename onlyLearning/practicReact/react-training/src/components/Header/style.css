@@ -8,6 +8,7 @@
 }
 
 .App .header .button {
+    font-family: 'Tahoma', sans-serif;
     font-size: 16px;
     width: 12%;
     height: 40px;

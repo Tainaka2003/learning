@@ -5,16 +5,16 @@ const Menu = () => {
     return (
         <nav className="nav">
             <a className={"anchor"} href="#">
-                Profile
+                Проекты
             </a>
             <a className={"anchor"} href="#">
-                Messages
+                Новости
             </a>
             <a className={"anchor"} href="#">
-                News
+                Состав
             </a>
             <a className={"anchor"} href="#">
-                Settings
+                Помощь
             </a>
         </nav>
     )

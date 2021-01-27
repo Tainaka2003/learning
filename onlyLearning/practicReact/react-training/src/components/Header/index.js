@@ -6,16 +6,16 @@ const Header = () => {
         <header className="header">
             <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Your_name_movie_logo.svg/1200px-Your_name_movie_logo.svg.png" alt="logo"/>
             <button className="button">
-                Profile
+                Проекты
             </button>
             <button className="button">
-                Messages
+                Новости
             </button>
             <button className="button">
-                News
+                Состав
             </button>
             <button className="button">
-                Settings
+                Помощь
             </button>
         </header>
     )

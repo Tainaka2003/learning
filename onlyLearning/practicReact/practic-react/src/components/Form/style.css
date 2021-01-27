@@ -1,0 +1,54 @@
+.form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.mainLabel {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Tahoma', sans-serif;
+    color: #00af88;
+    padding: 5px 20px;
+}
+
+.label {
+    font-size: 16px;
+    font-family: 'Tahoma', sans-serif;
+    display: block;
+    width: 560px;
+    padding: 5px 20px;
+}
+
+.input {
+    outline: none;
+    font-size: 16px;
+    font-family: 'Tahoma', sans-serif;
+    display: block;
+    width: 560px;
+    height: 24px;
+    margin: 10px 20px;
+}
+
+.button {
+    display: block;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Tahoma', sans-serif;
+    display: block;
+    width: 300px;
+    height: 50px;
+    height: 50px;
+    margin: 50px auto;
+    background: #00af88;
+    border-radius: 30px;
+    border: 0;
+    color: white;
+}
+
+.button:hover {
+    background: #00cf88;
+}
+
+.button:active {
+    box-shadow: inset 2px 2px 10px #898989;
+}
