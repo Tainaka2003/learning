@@ -1,0 +1,7 @@
+.App .content .newsItem {
+    font-family: 'Balsamiq Sans', cursive;
+    display: flex;
+    flex-direction: row;
+    width: 860px;
+    padding: 0 20px 0 20px;
+}

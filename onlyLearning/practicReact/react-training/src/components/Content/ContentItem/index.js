@@ -4,8 +4,7 @@ import './style.css';
 const ContentItem = (props) => {
     return (
         <div className={"contentItem"}>
-            <div className={"contentImg"}>
-            </div>
+            <div className={"contentImg"} />
             <div className={"contentText"}>
                 <p className={"paragraph"}>{props.name}</p>
                 <p className={"paragraph"}>Год: {props.year}</p>

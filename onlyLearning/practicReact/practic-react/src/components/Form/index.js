@@ -46,9 +46,27 @@ import './style.css'
 // );
 
 export default (props) => (
-    <div className={"mainLabel"} style={{FontSize: '70px', textAlign: "center", fontWeight: 700}}>
-        <h3>Car name: {props.name}</h3>
-        <p className={"label"} style={{FontSize: '50px', textAlign: "center", fontWeight: 700, margin: '0 auto'}}>Year: <strong>{props.year}</strong></p>
+    <div
+        className={"mainLabel"}
+        style={{FontSize: '70px', textAlign: "center", fontWeight: 700}}>
+        <h3>
+            Car name: {props.name}</h3>
+        <p
+            className={"label"}
+            style={
+                {
+                    FontSize: '50px',
+                    textAlign: "center",
+                    fontWeight: 700,
+                    margin: '0 auto'
+                }
+            }>
+            Year:
+            <strong>
+                {props.year}
+            </strong>
+        </p>
+        <button onClick={props.onChange}>Купить</button>
     </div>
 
 );
