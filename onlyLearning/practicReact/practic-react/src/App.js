@@ -22,10 +22,18 @@ class App extends Component{
 
     }
 
-    changeTitleHandler = (newTitle) => {
-        this.setState({
-            title: newTitle
-        })
+    onChangeName = (name, index) => {
+        const car = this.state.cars[index]
+        car.name = name
+        const cars = [...this.state.cars]
+        cars[index] = car
+        this.setState({cars})
+    }
+
+    onDeleteName(index) {
+        const cars = this.state.cars.concat()
+        cars.splice(index, 1)
+        this.setState({cars})
     }
 
     toggleCarsHandler = () => {
@@ -62,7 +70,8 @@ class App extends Component{
                             key={index}
                             name={car.name}
                             year={car.year}
-                            onChange={() => this.changeTitleHandler(car.name)} />
+                            onChangeName={event => this.onChangeName(event.target.value, index)}
+                            onDeleteName={this.onDeleteName.bind(this, index)}/>
                     )
                 })
                     : null

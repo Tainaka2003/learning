@@ -2,8 +2,9 @@ import React from "react";
 import './style.css';
 
 const ContentItem = (props) => {
+
     return (
-        <div className={"contentItem"}>
+        <div className={"contentItem on"}>
             <div className={"contentImg"} />
             <div className={"contentText"}>
                 <p className={"paragraph"}>{props.name}</p>

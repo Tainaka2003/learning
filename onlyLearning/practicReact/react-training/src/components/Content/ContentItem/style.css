@@ -1,37 +1,41 @@
-.App .content .contentItem {
+.App .content .games .contentItem.off {
+    display: none;
+}
+
+.App .content .games .contentItem.on {
     display: flex;
     flex-direction: row;
     width: 900px;
     height: 300px;
 }
 
-.App .content .contentItem:nth-of-type(2) {
+.App .content .games .contentItem.on:nth-of-type(2) {
     flex-direction: row-reverse;
 }
 
-.App .content .contentItem .contentImg {
+.App .content .games .contentItem.on .contentImg {
     margin: 25px;
     width: 250px;
     height: 250px;
     background: #ffffff;
 }
 
-.App .content .contentItem .contentText {
+.App .content .games .contentItem.on .contentText {
     font-family: 'Balsamiq Sans', cursive;
     font-size: 18px;
     padding: 0 20px 0 20px;
     width: 660px;
-    height: 200px;
+    height: 300px;
 }
 
-.App .content .contentItem .contentText .paragraph {
+.App .content .games .contentItem.on .contentText .paragraph {
     margin: 18px 0;
 }
 
-.App .content .contentItem .contentText .paragraph:first-of-type {
+.App .content .games .contentItem.on .contentText .paragraph:first-of-type {
     font-size: 30px;
 }
 
-.App .content .contentItem .contentText .description {
+.App .content .games .contentItem.on .contentText .description {
     margin: 10px 0;
 }

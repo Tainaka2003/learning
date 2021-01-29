@@ -1,7 +1,14 @@
-.App .content .newsItem {
-    font-family: 'Balsamiq Sans', cursive;
+.App .content .news .newsItem.off {
+    display: none;
+}
+
+.App .content .news .newsItem.on {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 860px;
     padding: 0 20px 0 20px;
+}
+
+.App .content .news .newsItem.on .newsText {
+    font-family: 'Balsamiq Sans', cursive;
 }

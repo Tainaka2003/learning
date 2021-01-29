@@ -66,7 +66,8 @@ export default (props) => (
                 {props.year}
             </strong>
         </p>
-        <button onClick={props.onChange}>Купить</button>
+        <input type="text" onChange={props.onChangeName} value={props.name}/>
+        <button onClick={props.onDeleteName}>Почистить</button>
     </div>
 
 );
