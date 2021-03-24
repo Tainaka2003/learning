@@ -1,0 +1,49 @@
+.listenNew {
+    width: 630px;
+    margin: 0 auto;
+    background: #F4F4F4;
+    border-radius: 0 0 40px 40px;
+}
+
+.listenNew .caption {
+    padding: 50px 0 20px 40px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.listenNew .newMusic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listenNew .newMusic .img {
+    background: #ffffff;
+    width: 295px;
+    height: 295px;
+    margin-bottom: 10px;
+}
+
+.listenNew .newMusic .name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+
+.listenNew .newMusic .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #666666;
+    margin: 0;
+}

@@ -1,14 +1,10 @@
 import React from "react";
 import './App.css';
-import Header from './components/Header/index';
-import Menu from './components/Menu/index';
-import Content from './components/Content/index';
+import Content from './components/Page/index';
 
 function App() {
   return (
     <div className="App">
-        <Header />
-        <Menu />
         <Content />
     </ div>
   );

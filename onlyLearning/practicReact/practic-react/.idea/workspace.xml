@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c09b9cb2-a350-4b67-a390-94d0e0556ab5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../react-training/src/components/Page/MemberItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-training/src/components/Page/MemberItem/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-training/src/components/Page/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicNodeJS/demo/fs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../practicNodeJS/demo/fs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicNodeJS/demo/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../practicNodeJS/demo/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-training/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../react-training/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-training/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-training/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-training/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../react-training/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-training/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-training/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-training/src/components/Content/ContentItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-training/src/components/Page/ContentItem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-training/src/components/Content/ContentItem/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../react-training/src/components/Page/ContentItem/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-training/src/components/Content/NewsItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-training/src/components/Page/NewsItem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-training/src/components/Content/NewsItem/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../react-training/src/components/Page/NewsItem/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-training/src/components/Content/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-training/src/components/Content/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-training/src/components/Header/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-training/src/components/Header/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-training/src/components/Menu/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-training/src/components/Menu/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-task/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../test-task/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-task/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../test-task/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1qCwsW8H56nWo6GRmWZzjWv6EMu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c09b9cb2-a350-4b67-a390-94d0e0556ab5" name="Default Changelist" comment="" />
+      <created>1616597086524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616597086524</updated>
+      <workItem from="1616597088260" duration="244000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

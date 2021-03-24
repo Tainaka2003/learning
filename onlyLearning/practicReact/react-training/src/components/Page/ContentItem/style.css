@@ -1,0 +1,41 @@
+.App .cont .content .games .contentItem {
+    display: none;
+}
+
+.App .cont .content .games .contentItem {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 300px;
+}
+
+.App .cont .content .games .contentItem:nth-of-type(2) {
+    flex-direction: row-reverse;
+}
+
+.App .cont .content .games .contentItem .contentImg {
+    margin: 25px;
+    width: 250px;
+    height: 250px;
+    background: #ffffff;
+}
+
+.App .cont .content .games .contentItem .contentText {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 18px;
+    padding: 0 20px 0 20px;
+    width: 660px;
+    height: 300px;
+}
+
+.App .cont .content .games .contentItem .contentText .paragraph {
+    margin: 18px 0;
+}
+
+.App .cont .content .games .contentItem .contentText .paragraph:first-of-type {
+    font-size: 30px;
+}
+
+.App .cont .content .games .contentItem .contentText .description {
+    margin: 10px 0;
+}

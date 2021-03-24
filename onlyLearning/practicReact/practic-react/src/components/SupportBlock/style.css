@@ -1,0 +1,60 @@
+.supportBlock {
+    width: 630px;
+    margin: 0 auto;
+    background: #F4F4F4;
+    border-radius: 40px;
+}
+
+.supportBlock .caption {
+    margin: 0;
+    padding: 50px 0 0 40px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.supportBlock .subcaption {
+    margin: 0;
+    padding: 0 0 0 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+}
+
+.supportBlock .support .link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.supportBlock .support .link .reference {
+    margin: 20px 0 0 40px;
+    min-width: 214px;
+    max-width: 300px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border: 0;
+    border-radius: 20px;
+    text-indent: 20px;
+    outline: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.supportBlock .support .link .click {
+    margin: 20px 40px 0 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: right;
+    color: #000000;
+}

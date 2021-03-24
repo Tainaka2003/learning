@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
     //         }
     //
     //         res.writeHead(200, {
-    //             'Content-Type': 'text/html'
+    //             'Page-Type': 'text/html'
     //         })
     //         res.end(data);
     //     });
@@ -24,7 +24,7 @@ const server = http.createServer((req, res) => {
     //         }
     //
     //         res.writeHead(200, {
-    //             'Content-Type': 'text/html'
+    //             'Page-Type': 'text/html'
     //         })
     //         res.end(data);
     //     });

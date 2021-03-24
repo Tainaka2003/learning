@@ -1,100 +1,212 @@
-import React, { Component } from 'react'
-import Form from './components/Form/index'
+import React, {Component} from 'react'
+import TrackList from "./components/TrackList";
+import Events from "./components/Events";
+import Artist from "./components/Artist";
+import ListenNew from "./components/ListenNew";
+import SupportBlock from "./components/SupportBlock";
 
-class App extends Component{
-
-    state = {
-        cars: [
-            {
-                count: 0,
-                name: 'Ford',
-                year: '2018'
-            },
-            {
-                count: 1,
-                name: 'Audi',
-                year: '2016'
-            }
-        ],
-
-        title: 'Привет, я с Донбаса, но продам тебе машины',
-        showCars: false,
-
-    }
-
-    onChangeName = (name, index) => {
-        const car = this.state.cars[index]
-        car.name = name
-        const cars = [...this.state.cars]
-        cars[index] = car
-        this.setState({cars})
-    }
-
-    onDeleteName(index) {
-        const cars = this.state.cars.concat()
-        cars.splice(index, 1)
-        this.setState({cars})
-    }
-
-    toggleCarsHandler = () => {
-        this.setState({
-            showCars: !this.state.showCars,
-        })
-    }
-
-    changeTitleHandler = pageTitle => {
-        this.setState({pageTitle})
+class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            song: [
+                {
+                    count: '1',
+                    title: 'Безболезненно',
+                    feat: '',
+                    duration: '4:13',
+                },
+                {
+                    count: '2',
+                    title: 'Beverly Hills',
+                    feat: '',
+                    duration: '4:13',
+                },
+                {
+                    count: '3',
+                    title: 'Бродяга–дождь',
+                    feat: '',
+                    duration: '4:13',
+                },
+                {
+                    count: '4',
+                    title: 'Двусмысленно',
+                    feat: '',
+                    duration: '4:13',
+                },
+                {
+                    count: '5',
+                    title: 'Безболезненно',
+                    feat: '',
+                    duration: '4:13',
+                },
+                {
+                    count: '6',
+                    title: 'Beverly Hills',
+                    feat: '',
+                    duration: '4:13',
+                },
+                {
+                    count: '7',
+                    title: 'Бродяга–дождь',
+                    feat: '',
+                    duration: '4:13',
+                },
+                {
+                    count: '8',
+                    title: 'Двусмысленно',
+                    feat: '',
+                    duration: '4:13',
+                },
+            ],
+            event: [
+                {
+                    number: '11',
+                    month: 'февраля',
+                    city: 'Владивосток',
+                    place: 'Фетисов-Арена',
+                },
+                {
+                    number: '20',
+                    month: 'февраля',
+                    city: 'Рязань',
+                    place: 'Deep-Арена',
+                },
+                {
+                    number: '21',
+                    month: 'февраля',
+                    city: 'Пенза',
+                    place: 'Росток Холл',
+                },
+                {
+                    number: '14',
+                    month: 'мая',
+                    city: 'Уфа',
+                    place: 'Уфа-Арена',
+                },
+                {
+                    number: '15',
+                    month: 'мая',
+                    city: 'Магнитогорск',
+                    place: 'Магнитогорск-Арена',
+                },
+                {
+                    number: '16',
+                    month: 'мая',
+                    city: 'Челябинск',
+                    place: 'Трактор-Арена',
+                },
+                {
+                    number: '28',
+                    month: 'мая',
+                    city: 'Ульяновск',
+                    place: 'Арена Волга Спорт',
+                },
+            ],
+            artist: [
+                {
+                    description: 'Российская поп-певица. Стала известна в 2017 году с песнями «Чак» и «Анестезия». Широкую популярность получила в конце 2018 года после выхода трека «Life».',
+                }
+            ],
+            newMusic: [
+                {
+                    name: 'Новая песня',
+                    type: 'Сингл',
+                    year: '2020'
+                }
+            ]
+        }
     }
 
     render() {
-
-        const cars = this.state.cars //???
-
         return (
             <div>
-                <h3
-                    style={{ textAlign: 'center' }}>
-                    {this.state.title}
-                </h3>
-
-                <button
-                    onClick={this.toggleCarsHandler}
-                    style={{ display: 'flex', justifyContent: 'center', margin: '0 auto' }}>
-                    Ладно
-                </button>
-
-                { this.state.showCars
-                    ? this.state.cars.map((car, index) => {
-                    return(
-                        <Form
-                            key={index}
-                            name={car.name}
-                            year={car.year}
-                            onChangeName={event => this.onChangeName(event.target.value, index)}
-                            onDeleteName={this.onDeleteName.bind(this, index)}/>
+                <div className={"trackList"}>
+                    <p className={"caption"}>
+                        ТРЕК–ЛИСТ
+                    </p>
+                    {this.state.song.map((song, index) => {
+                            return (
+                                <TrackList
+                                    key={index}
+                                    count={song.count}
+                                    title={song.title}
+                                    feat={song.feat}
+                                    duration={song.duration}/>
+                            )
+                        },
                     )
-                })
-                    : null
-                }
-
-                    {/*<Form*/}
-                    {/*    name={cars[0].name}*/}
-                    {/*    year={cars[0].year}*/}
-                    {/*    onChange=*/}
-                    {/*        {this.changeTitleHandler.bind(this, 'Захотел ' + cars[0].name + ' ' + cars[0].year + ' года выпуска? Не получишь!')}*/}
-                    {/*/>*/}
-                    {/*<Form*/}
-                    {/*    name={cars[1].name}*/}
-                    {/*    year={cars[1].year}*/}
-                    {/*    onChange={() =>*/}
-                    {/*    { this.changeTitleHandler('Захотел ' + cars[1].name + ' ' + cars[1].year + ' года выпуска? Не получишь!')}}*/}
-                    {/*/>*/}
-
-
-
-                    </div>
-                    )
-                }
                     }
+                    <p className={"allSongs"}>
+                        Все композиции
+                    </p>
+                </div>
 
-                    export default App;
+
+                <div className={"eventsList"}>
+                    {this.state.event.map((event, index) => {
+                            return (
+                                <Events
+                                    key={index}
+                                    number={event.number}
+                                    month={event.month}
+                                    city={event.city}
+                                    place={event.place}/>
+                            )
+                        },
+                    )
+                    }
+                </div>
+
+
+                <div className={"artist"}>
+                    <p className={"artistCaption"}>
+                        Об артисте
+                    </p>
+                    {this.state.artist.map((artist, index) => {
+                            return (
+                                <Artist
+                                    key={index}
+                                    description={artist.description}/>
+                            )
+                        }
+                    )
+                    }
+                    <p className={"details"}>
+                        Подробнее
+                    </p>
+                </div>
+
+
+                <div className={"listenNew"}>
+                    <p className={"caption"}>
+                        Новое
+                    </p>
+                    {this.state.newMusic.map((newMusic) => {
+                            return (
+                                <ListenNew
+                                    name={newMusic.name}
+                                    type={newMusic.type}
+                                    year={newMusic.year}
+                                />
+                            )
+                        }
+                    )
+                    }
+                </div>
+
+                <div className={"supportBlock"}>
+                    <p className={"caption"}>
+                        Поддержи релиз
+                    </p>
+                    <p className={"subcaption"}>
+                        Размести в своих аккаунтах
+                    </p>
+                    <SupportBlock />
+                </div>
+            </div>
+        )
+    }
+}
+
+export default App;

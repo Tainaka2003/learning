@@ -36,5 +36,5 @@ fs.readFile(filePath, 'utf-8', (err, content ) => {
     console.log(content);
 
     // const data = Buffer.from(content);
-    // console.log('Content: ', data.toString());
+    // console.log('Page: ', data.toString());
 })

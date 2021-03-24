@@ -1,0 +1,72 @@
+.eventsList {
+    width: 630px;
+    margin: 0 auto;
+}
+
+/*to eventsList*/
+
+.eventsItem {
+    display: grid;
+    grid-template-areas: "date city place";
+    grid-template-rows: 40px 1fr;
+    grid-template-columns: 60px 1fr 150px;
+    margin: 0 40px 0 50px;
+    padding: 10px;
+}
+
+.eventsItem:nth-of-type(2n) {
+    background: #F4F4F4;
+}
+
+/*to eventsItem*/
+
+.date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 36px;
+}
+
+.city {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+/*to date*/
+
+.number {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.month {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+}
