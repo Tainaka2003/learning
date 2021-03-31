@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="540bb746-3793-46f3-a0fd-b305a9e332e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Page/MemberItem/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Page/MemberItem/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Page/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practicNodeJS/demo/fs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../practicNodeJS/demo/fs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practicNodeJS/demo/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../practicNodeJS/demo/http.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practic-react/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../practic-react/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practic-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../practic-react/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practic-react/src/components/Form/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practic-react/src/components/Form/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practic-react/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../practic-react/src/serviceWorker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/ContentItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/ContentItem/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/ContentItem/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/ContentItem/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/NewsItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/NewsItem/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/NewsItem/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/NewsItem/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test-task/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../test-task/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test-task/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../test-task/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +25,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../practic-react" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -63,6 +42,10 @@
       <updated>1611563731677</updated>
       <workItem from="1611563733305" duration="45000" />
       <workItem from="1616597058278" duration="28000" />
+      <workItem from="1616933636252" duration="1864000" />
+      <workItem from="1616943035000" duration="2152000" />
+      <workItem from="1617020677370" duration="3008000" />
+      <workItem from="1617167566658" duration="1841000" />
     </task>
     <servers />
   </component>

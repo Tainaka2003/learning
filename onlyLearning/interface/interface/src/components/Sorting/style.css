@@ -1,0 +1,54 @@
+.sorting {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 910px;
+    height: 70px;
+    box-shadow: 0 4px 12px #E7E7E7;
+    background: #FFFFFF;
+}
+
+.sorting .dropdown {
+    font-family: 'Roboto', sans-serif;
+    width: 250px;
+    height: 30px;
+    margin: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2B2839;
+    border: solid #2B2839 1px;
+    border-radius: 2px;
+}
+
+.sorting .checkbox {
+    font-family: 'Roboto', sans-serif;
+    margin: 25px 340px 25px 0;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 14px;
+    color: #2B2839;
+}
+
+.sorting .button-wrap {
+    margin: 0;
+}
+
+.sorting .button-wrap .button {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    margin: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2B2839;
+    background: #ffffff;
+    outline: 0;
+    border: 1px solid #E0E5E6;
+    box-sizing: border-box;
+    border-radius: 3px;
+}

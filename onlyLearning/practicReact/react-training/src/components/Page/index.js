@@ -50,23 +50,23 @@ class Content extends Component {
             members: [
                 {
                     photo: '',
-                    member: 'Tanaika03',
+                    member: 'Член 1',
                     role: 'Кодер',
                 },
                 {
                     photo: '',
-                    member: 'He Mory npu9ymaTb Huk',
-                    role: 'Художник по фонам в "Бесконечном Ягуаре"',
+                    member: 'Член 2',
+                    role: 'Художник',
                 },
                 {
                     photo: '',
-                    member: 'ClassniChuvak',
-                    role: 'Композитор "Бесконечного Ягуара" и "Музыкальной одержимости"',
+                    member: 'Член 2',
+                    role: 'Композитор',
                 }
             ],
             showGames: false,
             showNews: false,
-            showMembers: true,
+            showMembers: false,
         }
     }
 

@@ -1,0 +1,127 @@
+.card {
+    margin: 10px 10px 0 0;
+    width: 300px;
+    height: 210px;
+    background: #F6FAFB;
+    box-shadow: 0 4px 12px #EBEBEB;
+    border-radius: 3px;
+}
+
+.card .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    background: rgba(237, 232, 245, 0.5);
+}
+
+.card .title .caption {
+    margin-left: 20px;
+    margin-right: 160px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2B2839;
+}
+
+.card .title .nav, .card .title .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    border: 0;
+    background: rgba(237, 232, 245, 0.5);
+    outline: 0;
+}
+
+.card .title .menu {
+    margin-right: 20px;
+}
+
+.card .register {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding-left: 20px;
+    text-align: left;
+    height: 30px;
+    border-bottom: 1px solid #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2B2839;
+}
+
+.dropbtn {
+    background: rgba(237, 232, 245, 0.5);
+    color: white;
+    padding: 10px 5px 6px 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background: rgba(237, 232, 245, 0.5);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content p {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 0;
+    color: black;
+    width: 150px;
+    height: 25px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.show {display:block;outline: none; border: 0;}
+
+.select {
+    padding: 10px 5px 6px 5px;
+}
+
+.image {
+    width: 20px;
+    box-sizing: border-box;
+    padding: 10px 5px 6px 5px;
+    margin-right: 5px;
+}
+
+.action {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2B2839;
+}
