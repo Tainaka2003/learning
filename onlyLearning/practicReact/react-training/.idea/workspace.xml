@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="540bb746-3793-46f3-a0fd-b305a9e332e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../practic-react/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../practic-react/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practicVue/vue-vladilen/src/components/ContentItem/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +44,10 @@
       <workItem from="1616943035000" duration="2152000" />
       <workItem from="1617020677370" duration="3008000" />
       <workItem from="1617167566658" duration="1841000" />
+      <workItem from="1617804923944" duration="595000" />
+      <workItem from="1617896191201" duration="594000" />
+      <workItem from="1618199915222" duration="1276000" />
+      <workItem from="1618232759060" duration="1088000" />
     </task>
     <servers />
   </component>
