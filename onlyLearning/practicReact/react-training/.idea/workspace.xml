@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="540bb746-3793-46f3-a0fd-b305a9e332e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../practicVue/vue-vladilen/src/components/ContentItem/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +22,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../practicJS/lesson 5.1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -47,7 +46,8 @@
       <workItem from="1617804923944" duration="595000" />
       <workItem from="1617896191201" duration="594000" />
       <workItem from="1618199915222" duration="1276000" />
-      <workItem from="1618232759060" duration="1088000" />
+      <workItem from="1618232759060" duration="1725000" />
+      <workItem from="1618270575347" duration="39000" />
     </task>
     <servers />
   </component>

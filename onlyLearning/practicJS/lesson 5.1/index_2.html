@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+
+<script>
+
+    const regulations = {
+        name: "nameRegulations",
+        setName: () => {
+            regulations.name = prompt("Введите имя регламента", "nameRegulations");
+            alert("Имя регламента " + regulations.name + " установлено");
+        },
+        export: true,
+        id: "",
+        priority: "",
+        setPriority: () => {
+            let x = prompt('Введите приоритет');
+            switch (x) {
+                case 'low': {
+                    regulations.priority = x;
+                    alert("Приоритет " + x + " задан");
+                    break;
+                }
+                case 'middle': {
+                    regulations.priority = x;
+                    alert("Приоритет " + x + " задан");
+                    break;
+                }
+                case 'high': {
+                    regulations.priority = x;
+                    alert("Приоритет " + x + " задан");
+                    break;
+                }
+            }
+        },
+        agree: false,
+        setAgree: () => {
+            let areYouAgree = confirm("Вы принимаете пользовательское соглашение?");
+            (areYouAgree) ? regulations.agree = areYouAgree : regulations.agree = false;
+            switch (areYouAgree) {
+                case true: {
+                    alert("Вы приняли пользовательское соглашение");
+                    break;
+                }
+                case false: {
+                    alert("Вы не приняли пользовательское соглашение");
+                    break;
+                }
+            }
+        },
+    };
+
+    regulations.setName()
+    regulations.setPriority();
+    regulations.setAgree();
+
+</script>
+</html>
