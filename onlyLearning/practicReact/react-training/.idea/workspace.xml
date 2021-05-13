@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="540bb746-3793-46f3-a0fd-b305a9e332e9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/ContentItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/ContentItem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/ContentItem/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/ContentItem/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/MemberItem/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/MemberItem/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/NewsItem/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/NewsItem/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../practicJS/lesson 5.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -50,6 +57,7 @@
       <workItem from="1618270575347" duration="39000" />
       <workItem from="1618414996620" duration="1922000" />
       <workItem from="1618491336052" duration="57000" />
+      <workItem from="1620930355890" duration="9450000" />
     </task>
     <servers />
   </component>

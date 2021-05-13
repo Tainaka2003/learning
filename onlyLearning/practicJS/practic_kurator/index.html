@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            width: 600px;
+            margin: 10px auto;
+        }
+        .delete {
+            background: #ffffff;
+            border: 2px solid #ff6666;
+        }
+        .add {
+            background: #ffffff;
+            border: 2px solid #66ff66;
+        }
+        .delete:focus {
+            background: #ff6666;
+            border: 2px solid #ff6666;
+        }
+        .add:focus {
+            background: #66ff66;
+            border: 2px solid #66ff66;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <input type="text" name="input" id="input1" oninput="onInput()">
+        <input type="text" name="input" id="input2" oninput="onInput()">
+        <p>oninput: <span id="ask"></span>
+        <span id="ask2"></span></p>
+    </div>
+    <div>
+        <input type="text" name="input" id="input3">
+        <button class="delete" onclick="pop();show()">-</button>
+        <button class="add" onclick="push();show()">+</button>
+        <p>onarray: <span id="ask3"></span></p>
+    </div>
+
+</body>
+
+<script>
+    const arr = [1, 2, 3, 5, 8 ,13, 21]
+
+    function onInput() {
+        document.getElementById("ask").innerHTML = document.getElementById("input1").value;
+        document.getElementById("ask2").innerHTML = document.getElementById("input2").value;
+    }
+
+    function push() {
+        document.getElementById("ask3").innerHTML = " ";
+        arr.push(document.getElementById("input3").value);
+    }
+
+    function pop() {
+        document.getElementById("ask3").innerHTML = " ";
+        arr.pop();
+    }
+
+    function show() {
+        for (i=0; i<arr.length; i++) {
+            document.getElementById("ask3").innerHTML = document.getElementById("ask3").innerHTML + " " + arr[i];
+        }
+    }
+
+</script>
+</html>

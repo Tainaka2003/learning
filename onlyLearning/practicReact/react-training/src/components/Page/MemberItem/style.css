@@ -1,15 +1,12 @@
 .App .cont .content .members {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-areas:    "item item item"
+                            "item item item"
 }
 
 .App .cont .content .members .memberItem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 300px;
-    height: 600px;
+    height: 450px;
 }
 
 .App .cont .content .members .memberItem .memberImg {

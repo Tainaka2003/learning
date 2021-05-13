@@ -1,8 +1,4 @@
 .App .cont .content .games .contentItem {
-    display: none;
-}
-
-.App .cont .content .games .contentItem {
     display: flex;
     flex-direction: row;
     width: 900px;

@@ -1,8 +1,4 @@
 .App .cont .content .news .newsItem {
-    display: none;
-}
-
-.App .cont .content .news .newsItem {
     display: flex;
     flex-direction: column;
     width: 860px;
