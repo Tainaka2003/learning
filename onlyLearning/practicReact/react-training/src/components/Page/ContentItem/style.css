@@ -9,11 +9,17 @@
     flex-direction: row-reverse;
 }
 
-.App .cont .content .games .contentItem .contentImg {
+.App .cont .content .games .contentItem .contentWrap {
     margin: 25px;
     width: 250px;
     height: 250px;
-    background: #ffffff;
+}
+
+.App .cont .content .games .contentItem .contentWrap .contentImg {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 5px;
 }
 
 .App .cont .content .games .contentItem .contentText {

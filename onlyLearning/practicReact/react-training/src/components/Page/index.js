@@ -16,7 +16,7 @@ class Content extends Component {
                     type: 'Приключения, Нелинейные концовки',
                     description: 'Энни живёт в счастливом и радостном мире Зоа, который населён звероподобными существами. Здесь каждый день происходят праздники, и не бывает бед. Но всё ли здесь так замечательно?..',
                     mark: '3,806 из 5,000 (31 рецензия) - топ 10 в большинстве критериев из 72',
-                    cover: '',
+                    cover: 'https://i.ibb.co/0j2nfDY/3366.png',
                 },
                 {
                     name: 'Бесконечный Ягуар',
@@ -24,7 +24,7 @@ class Content extends Component {
                     type: 'Комедия, Трэш',
                     description: 'С 11 по 17 января в жизни русских визуальных новелл состоялся очередной эксперимент. У подопытных было только 2 пути - сделать новеллу за неделю и выжить или рассориться друг с другом и остаться в холоде навсегда...',
                     mark: '3,040 из 5,000 (33 рецензии) - 54 место из 64',
-                    cover: '',
+                    cover: 'https://i.ibb.co/1MQZPy9/3123.png',
                 },
                 {
                     name: 'Моя музыкальная одержимость',
@@ -32,7 +32,7 @@ class Content extends Component {
                     type: 'Школа, Повседневность',
                     description: 'Максим отправляется в музыкальную школу с целью осваивать новые умения игры. Казалось бы всё нормально, но для самой школы наступило непростое время, и она не готова обучать новых музыкантов...',
                     mark: 'не участвовала в конкурсе',
-                    cover: '',
+                    cover: 'https://i.ibb.co/nzGxHGD/2857.png',
                 }
 
             ],
@@ -118,7 +118,7 @@ class Content extends Component {
             ],
             max: [
                 {
-                    cover: '',
+                    cover: 'https://i.ibb.co/s5NxPcj/Max-1.gif',
                     name: 'Максим',
                     age: '17',
                     did: 'Ученик 11 класса селькой школы в Гусеничкино. Хочет попасть в музыкальный кружок, чтобы играть в музыкальной группе на клавишных, но встречает некоторые трудности в этом.',
@@ -126,7 +126,7 @@ class Content extends Component {
             ],
             dasha: [
                 {
-                    cover: '',
+                    cover: 'https://i.ibb.co/cJyjsBw/dasha.png',
                     name: 'Даша',
                     age: '16',
                     did: 'Ученица 10 класса селькой школы в Гусеничкино. Играет на ударных инструментах в музыкальной группе. В общении проста и ветренна, не особо интересуется поддержанием диалога, но не скучная.',
@@ -134,7 +134,7 @@ class Content extends Component {
             ],
             olesya: [
                 {
-                    cover: '',
+                    cover: 'https://i.ibb.co/JdZ9cMG/olesya.png',
                     name: 'Олеся',
                     age: '16',
                     did: 'Ученица 10 класса селькой школы в Гусеничкино. Играет на клавишных инструментах в музыкальной группе. Однако в связи с недавней травмой не может заниматься музыкальной деятельностью.',
@@ -142,7 +142,7 @@ class Content extends Component {
             ],
             sonya: [
                 {
-                    cover: '',
+                    cover: 'https://i.ibb.co/FzYRYbq/Sonya-1.gif',
                     name: 'Соня',
                     age: '16',
                     did: 'Ученица 10 класса селькой школы в Гусеничкино. Играет на бас-гитаре в музыкальной группе. В общении довольно язвительна, но в целом любит пофилософствовать в любой абстрактной теме.',
@@ -150,7 +150,7 @@ class Content extends Component {
             ],
             teacher: [
                 {
-                    cover: '',
+                    cover: 'https://i.ibb.co/rM053NT/Teacher-1.gif',
                     name: 'Учитель',
                     age: '26',
                     did: 'Учитель музыки селькой школы в Гусеничкино. Продюссирует музыкальную группу из школьниц. Резко негативно относится к принятию новых людей в коллектив.',
@@ -222,98 +222,28 @@ class Content extends Component {
                     role: 'и ты должен быть художником по спрайтам или фонам',
                 }
             ],
-            showGames: false,
-            showNews: false,
-            showMembers: false,
-            showAnnie: false,
-            showBeep: false,
-            showAngel: false,
-            showLina: false,
-            showJill: false,
-            showScenarist: false,
-            showArtist: false,
-            showComposer: false,
-            showAmogu: false,
-            showTernox: false,
-            showMax: false,
-            showDasha: false,
-            showOlesya: false,
-            showSonya: false,
-            showTeacher: false,
+            showPage: '',
         }
     }
 
-    ToggleNews = () => {
-        this.setState({showNews: true, showGames: false, showMembers: false, showAnnie: false, showBeep: false, showLina: false, showAngel: false, showJill: false, showScenarist: false, showArtist: false, showComposer: false, showAmogu: false, showTernox: false, showMax: false, showDasha: false, showOlesya: false, showSonya: false, showTeacher: false,})
-    }
-
-    ToggleGames = () => {
-        this.setState({showNews: false, showGames: true, showMembers: false, showAnnie: false, showBeep: false, showLina: false, showAngel: false, showJill: false, showScenarist: false, showArtist: false, showComposer: false, showAmogu: false, showTernox: false, showMax: false, showDasha: false, showOlesya: false, showSonya: false, showTeacher: false,})
-    }
-
-    ToggleMembers = () => {
-        this.setState({showNews: false, showGames: false, showMembers: true, showAnnie: false, showBeep: false, showLina: false, showAngel: false, showJill: false, showScenarist: false, showArtist: false, showComposer: false, showAmogu: false, showTernox: false, showMax: false, showDasha: false, showOlesya: false, showSonya: false, showTeacher: false,})
-    }
-
-    showAnnie = () => {
-        this.setState({showNews: false, showGames: false, showMembers: false, showAnnie: true, showBeep: false, showLina: false, showAngel: false, showJill: false, showScenarist: false, showArtist: false, showComposer: false, showAmogu: false, showTernox: false, showMax: false, showDasha: false, showOlesya: false, showSonya: false, showTeacher: false,})
-    }
-
-    showBeep = () => {
-        this.setState({showNews: false, showGames: false, showMembers: false, showAnnie: false, showBeep: true, showLina: false, showAngel: false, showJill: false, showScenarist: false, showArtist: false, showComposer: false, showAmogu: false, showTernox: false, showMax: false, showDasha: false, showOlesya: false, showSonya: false, showTeacher: false,})
-    }
-
-    showLina = () => {
-        this.setState({showNews: false, showGames: false, showMembers: false, showAnnie: false, showBeep: false, showLina: true, showAngel: false, showJill: false, showScenarist: false, showArtist: false, showComposer: false, showAmogu: false, showTernox: false, showMax: false, showDasha: false, showOlesya: false, showSonya: false, showTeacher: false,})
-    }
-
-    showAngel = () => {
-        this.setState({showNews: false, showGames: false, showMembers: false, showAnnie: false, showBeep: false, showLina: false, showAngel: true, showJill: false, showScenarist: false, showArtist: false, showComposer: false, showAmogu: false, showTernox: false, showMax: false, showDasha: false, showOlesya: false, showSonya: false, showTeacher: false,})
-    }
-
-    showJill = () => {
-        this.setState({showNews: false, showGames: false, showMembers: false, showAnnie: false, showBeep: false, showLina: false, showAngel: false, showJill: true, showScenarist: false, showArtist: false, showComposer: false, showAmogu: false, showTernox: false, showMax: false, showDasha: false, showOlesya: false, showSonya: false, showTeacher: false,})
-    }
-
-    showScenarist = () => {
-        this.setState({showNews: false, showGames: false, showMembers: false, showAnnie: false, showBeep: false, showLina: false, showAngel: false, showJill: false, showScenarist: true, showArtist: false, showComposer: false, showAmogu: false, showTernox: false, showMax: false, showDasha: false, showOlesya: false, showSonya: false, showTeacher: false,})
-    }
-
-    showArtist = () => {
-        this.setState({showNews: false, showGames: false, showMembers: false, showAnnie: false, showBeep: false, showLina: false, showAngel: false, showJill: false, showScenarist: false, showArtist: true, showComposer: false, showAmogu: false, showTernox: false, showMax: false, showDasha: false, showOlesya: false, showSonya: false, showTeacher: false,})
-    }
-
-    showComposer = () => {
-        this.setState({showNews: false, showGames: false, showMembers: false, showAnnie: false, showBeep: false, showLina: false, showAngel: false, showJill: false, showScenarist: false, showArtist: false, showComposer: true, showAmogu: false, showTernox: false, showMax: false, showDasha: false, showOlesya: false, showSonya: false, showTeacher: false,})
-    }
-
-    showAmogu = () => {
-        this.setState({showNews: false, showGames: false, showMembers: false, showAnnie: false, showBeep: false, showLina: false, showAngel: false, showJill: false, showScenarist: false, showArtist: false, showComposer: false, showAmogu: true, showTernox: false, showMax: false, showDasha: false, showOlesya: false, showSonya: false, showTeacher: false,})
-    }
-
-    showTernox = () => {
-        this.setState({showNews: false, showGames: false, showMembers: false, showAnnie: false, showBeep: false, showLina: false, showAngel: false, showJill: false, showScenarist: false, showArtist: false, showComposer: false, showAmogu: false, showTernox: true, showMax: false, showDasha: false, showOlesya: false, showSonya: false, showTeacher: false,})
-    }
-
-    showMax = () => {
-        this.setState({showNews: false, showGames: false, showMembers: false, showAnnie: false, showBeep: false, showLina: false, showAngel: false, showJill: false, showScenarist: false, showArtist: false, showComposer: false, showAmogu: false, showTernox: false, showMax: true, showDasha: false, showOlesya: false, showSonya: false, showTeacher: false,})
-    }
-
-    showDasha = () => {
-        this.setState({showNews: false, showGames: false, showMembers: false, showAnnie: false, showBeep: false, showLina: false, showAngel: false, showJill: false, showScenarist: false, showArtist: false, showComposer: false, showAmogu: false, showTernox: false, showMax: false, showDasha: true, showOlesya: false, showSonya: false, showTeacher: false,})
-    }
-
-    showOlesya = () => {
-        this.setState({showNews: false, showGames: false, showMembers: false, showAnnie: false, showBeep: false, showLina: false, showAngel: false, showJill: false, showScenarist: false, showArtist: false, showComposer: false, showAmogu: false, showTernox: false, showMax: false, showDasha: false, showOlesya: true, showSonya: false, showTeacher: false,})
-    }
-
-    showSonya = () => {
-        this.setState({showNews: false, showGames: false, showMembers: false, showAnnie: false, showBeep: false, showLina: false, showAngel: false, showJill: false, showScenarist: false, showArtist: false, showComposer: false, showAmogu: false, showTernox: false, showMax: false, showDasha: false, showOlesya: false, showSonya: true, showTeacher: false,})
-    }
-
-    showTeacher = () => {
-        this.setState({showNews: false, showGames: false, showMembers: false, showAnnie: false, showBeep: false, showLina: false, showAngel: false, showJill: false, showScenarist: false, showArtist: false, showComposer: false, showAmogu: false, showTernox: false, showMax: false, showDasha: false, showOlesya: false, showSonya: false, showTeacher: true,})
-    }
+    ToggleNews = () => {this.setState({ showPage: 'news'})}
+    ToggleGames = () => {this.setState({ showPage: 'games'})}
+    ToggleMembers = () => {this.setState({ showPage: 'members'})}
+    showAnnie = () => {this.setState({ showPage: 'annie'})}
+    showBeep = () => {this.setState({ showPage: 'beep'})}
+    showLina = () => {this.setState({ showPage: 'lina'})}
+    showAngel = () => {this.setState({ showPage: 'angel'})}
+    showJill = () => {this.setState({ showPage: 'jill'})}
+    showScenarist = () => {this.setState({ showPage: 'scenarist'})}
+    showArtist = () => {this.setState({ showPage: 'artist'})}
+    showComposer = () => {this.setState({ showPage: 'composer'})}
+    showAmogu = () => {this.setState({ showPage: 'amogu'})}
+    showTernox = () => {this.setState({ showPage: 'ternox'})}
+    showMax = () => {this.setState({ showPage: 'max'})}
+    showDasha = () => {this.setState({ showPage: 'dasha'})}
+    showOlesya = () => {this.setState({ showPage: 'olesya'})}
+    showSonya = () => {this.setState({ showPage: 'sonya'})}
+    showTeacher = () => {this.setState({ showPage: 'teacher'})}
 
     render() {
         return (
@@ -322,15 +252,9 @@ class Content extends Component {
                 <header className="header">
                     <img src="https://i.ibb.co/cyxm6TY/c08e5a1ad55f0088.png" alt="c08e5a1ad55f0088" border="0"
                          width={"300px"} height={"75px"}/>
-                    <button className="button" onClick={this.ToggleGames}>
-                        Проекты
-                    </button>
-                    <button className="button" onClick={this.ToggleNews}>
-                        Дневник
-                    </button>
-                    <button className="button" onClick={this.ToggleMembers}>
-                        Состав
-                    </button>
+                    <button className="button" onClick={this.ToggleGames}>Проекты</button>
+                    <button className="button" onClick={this.ToggleNews}>Дневник</button>
+                    <button className="button" onClick={this.ToggleMembers}>Состав</button>
                 </header>
 
                 <nav className="nav">
@@ -357,16 +281,17 @@ class Content extends Component {
                 <div className={"content"}>
 
                     <div className={"games"}>
-                        {this.state.showGames
-                        ? this.state.games.map((game, index) => {
-                            return (
-                                <ContentItem
-                                    key={index}
-                                    name={game.name}
-                                    year={game.year}
-                                    type={game.type}
-                                    mark={game.mark}
-                                    description={game.description}/>
+                        {this.state.showPage === 'games'
+                            ? this.state.games.map((game, index) => {
+                                return (
+                                    <ContentItem
+                                        key={index}
+                                        name={game.name}
+                                        year={game.year}
+                                        type={game.type}
+                                        mark={game.mark}
+                                        description={game.description}
+                                        cover={game.cover}/>
                                     )
                                 },
                             )
@@ -375,13 +300,13 @@ class Content extends Component {
                     </div>
 
                     <div className={"news"}>
-                        {this.state.showNews
+                        {this.state.showPage === 'news'
                             ? this.state.news.map((caption, index) => {
-                                    return (
-                                        <NewsItem
-                                            key={index}
-                                            date={caption.date}
-                                            message={caption.message}/>
+                                return (
+                                    <NewsItem
+                                        key={index}
+                                        date={caption.date}
+                                        message={caption.message}/>
                                     )
                                 },
                             )
@@ -390,16 +315,15 @@ class Content extends Component {
                     </div>
 
                     <div className={"members"}>
-                        {this.state.showMembers
+                        {this.state.showPage === 'members'
                             ? this.state.members.map((member, index) => {
-                                    return (
-                                        <MemberItem
-                                            key={index}
-                                            photo={member.photo}
-                                            member={member.member}
-                                            role={member.role}
-                                            actual={member.actual}
-                                        />
+                                return (
+                                    <MemberItem
+                                        key={index}
+                                        photo={member.photo}
+                                        member={member.member}
+                                        role={member.role}
+                                        actual={member.actual}/>
                                     )
                                 },
                             )
@@ -408,7 +332,7 @@ class Content extends Component {
                     </div>
 
                     <div className={"heroes"}>
-                        {this.state.showAnnie
+                        {this.state.showPage === 'annie'
                             ? this.state.annie.map((annie, index) => {
                                     return (
                                         <HeroesItem
@@ -422,7 +346,7 @@ class Content extends Component {
                             )
                             : null
                         }
-                        {this.state.showBeep
+                        {this.state.showPage === 'beep'
                             ? this.state.beep.map((beep, index) => {
                                     return (
                                         <HeroesItem
@@ -436,7 +360,7 @@ class Content extends Component {
                             )
                             : null
                         }
-                        {this.state.showLina
+                        {this.state.showPage === 'lina'
                             ? this.state.lina.map((lina, index) => {
                                     return (
                                         <HeroesItem
@@ -450,7 +374,7 @@ class Content extends Component {
                             )
                             : null
                         }
-                        {this.state.showAngel
+                        {this.state.showPage === 'angel'
                             ? this.state.angel.map((angel, index) => {
                                     return (
                                         <HeroesItem
@@ -464,7 +388,7 @@ class Content extends Component {
                             )
                             : null
                         }
-                        {this.state.showJill
+                        {this.state.showPage === 'jill'
                             ? this.state.jill.map((jill, index) => {
                                     return (
                                         <HeroesItem
@@ -478,7 +402,7 @@ class Content extends Component {
                             )
                             : null
                         }
-                        {this.state.showScenarist
+                        {this.state.showPage === 'scenarist'
                             ? this.state.scenarist.map((scenarist, index) => {
                                     return (
                                         <HeroesItem
@@ -492,7 +416,7 @@ class Content extends Component {
                             )
                             : null
                         }
-                        {this.state.showArtist
+                        {this.state.showPage === 'artist'
                             ? this.state.artist.map((artist, index) => {
                                     return (
                                         <HeroesItem
@@ -506,7 +430,7 @@ class Content extends Component {
                             )
                             : null
                         }
-                        {this.state.showComposer
+                        {this.state.showPage === 'composer'
                             ? this.state.composer.map((composer, index) => {
                                     return (
                                         <HeroesItem
@@ -520,7 +444,7 @@ class Content extends Component {
                             )
                             : null
                         }
-                        {this.state.showAmogu
+                        {this.state.showPage === 'amogu'
                             ? this.state.amogu.map((amogu, index) => {
                                     return (
                                         <HeroesItem
@@ -534,7 +458,7 @@ class Content extends Component {
                             )
                             : null
                         }
-                        {this.state.showTernox
+                        {this.state.showPage === 'ternox'
                             ? this.state.ternox.map((ternox, index) => {
                                     return (
                                         <HeroesItem
@@ -548,7 +472,7 @@ class Content extends Component {
                             )
                             : null
                         }
-                        {this.state.showMax
+                        {this.state.showPage === 'max'
                             ? this.state.max.map((max, index) => {
                                     return (
                                         <HeroesItem
@@ -556,13 +480,14 @@ class Content extends Component {
                                             name={max.name}
                                             did={max.did}
                                             age={max.age}
+                                            cover={max.cover}
                                         />
                                     )
                                 },
                             )
                             : null
                         }
-                        {this.state.showDasha
+                        {this.state.showPage === 'dasha'
                             ? this.state.dasha.map((dasha, index) => {
                                     return (
                                         <HeroesItem
@@ -570,13 +495,14 @@ class Content extends Component {
                                             name={dasha.name}
                                             did={dasha.did}
                                             age={dasha.age}
+                                            cover={dasha.cover}
                                         />
                                     )
                                 },
                             )
                             : null
                         }
-                        {this.state.showOlesya
+                        {this.state.showPage === 'olesya'
                             ? this.state.olesya.map((olesya, index) => {
                                     return (
                                         <HeroesItem
@@ -584,13 +510,14 @@ class Content extends Component {
                                             name={olesya.name}
                                             did={olesya.did}
                                             age={olesya.age}
+                                            cover={olesya.cover}
                                         />
                                     )
                                 },
                             )
                             : null
                         }
-                        {this.state.showSonya
+                        {this.state.showPage === 'sonya'
                             ? this.state.sonya.map((sonya, index) => {
                                     return (
                                         <HeroesItem
@@ -598,13 +525,14 @@ class Content extends Component {
                                             name={sonya.name}
                                             did={sonya.did}
                                             age={sonya.age}
+                                            cover={sonya.cover}
                                         />
                                     )
                                 },
                             )
                             : null
                         }
-                        {this.state.showTeacher
+                        {this.state.showPage === 'teacher'
                             ? this.state.teacher.map((teacher, index) => {
                                     return (
                                         <HeroesItem
@@ -612,6 +540,7 @@ class Content extends Component {
                                             name={teacher.name}
                                             did={teacher.did}
                                             age={teacher.age}
+                                            cover={teacher.cover}
                                         />
                                     )
                                 },

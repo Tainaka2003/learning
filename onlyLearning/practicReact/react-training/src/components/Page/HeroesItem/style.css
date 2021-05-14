@@ -38,8 +38,14 @@
 }
 
 .App .cont .content .heroes .heroesItem .heroWrap .heroImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 25px;
     width: 250px;
     height: 250px;
-    background: #ffffff;
+}
+
+.App .cont .content .heroes .heroesItem .heroWrap .heroImg .heroImg2 .img {
+    object-fit: cover;
 }
