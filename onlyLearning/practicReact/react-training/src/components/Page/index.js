@@ -11,8 +11,16 @@ class Content extends Component {
         this.state = {
             games: [
                 {
+                    name: '[Новый проект]',
+                    year: '[Лето 2021]',
+                    type: '[Жанры]',
+                    description: '[Описание]',
+                    mark: '[Оценки]',
+                    cover: '',
+                },
+                {
                     name: 'Настоящий друг',
-                    year: '2021',
+                    year: 'Весна 2021',
                     type: 'Приключения, Нелинейные концовки',
                     description: 'Энни живёт в счастливом и радостном мире Зоа, который населён звероподобными существами. Здесь каждый день происходят праздники, и не бывает бед. Но всё ли здесь так замечательно?..',
                     mark: '3,806 из 5,000 (31 рецензия) - топ 10 в большинстве критериев из 72',
@@ -20,7 +28,7 @@ class Content extends Component {
                 },
                 {
                     name: 'Бесконечный Ягуар',
-                    year: '2021',
+                    year: 'Зима 2020-2021',
                     type: 'Комедия, Трэш',
                     description: 'С 11 по 17 января в жизни русских визуальных новелл состоялся очередной эксперимент. У подопытных было только 2 пути - сделать новеллу за неделю и выжить или рассориться друг с другом и остаться в холоде навсегда...',
                     mark: '3,040 из 5,000 (33 рецензии) - 54 место из 64',
@@ -28,7 +36,7 @@ class Content extends Component {
                 },
                 {
                     name: 'Моя музыкальная одержимость',
-                    year: '2020',
+                    year: 'Осень 2020',
                     type: 'Школа, Повседневность',
                     description: 'Максим отправляется в музыкальную школу с целью осваивать новые умения игры. Казалось бы всё нормально, но для самой школы наступило непростое время, и она не готова обучать новых музыкантов...',
                     mark: 'не участвовала в конкурсе',
@@ -118,7 +126,7 @@ class Content extends Component {
             ],
             max: [
                 {
-                    cover: 'https://i.ibb.co/s5NxPcj/Max-1.gif',
+                    cover: '',
                     name: 'Максим',
                     age: '17',
                     did: 'Ученик 11 класса селькой школы в Гусеничкино. Хочет попасть в музыкальный кружок, чтобы играть в музыкальной группе на клавишных, но встречает некоторые трудности в этом.',
@@ -126,7 +134,7 @@ class Content extends Component {
             ],
             dasha: [
                 {
-                    cover: 'https://i.ibb.co/cJyjsBw/dasha.png',
+                    cover: '',
                     name: 'Даша',
                     age: '16',
                     did: 'Ученица 10 класса селькой школы в Гусеничкино. Играет на ударных инструментах в музыкальной группе. В общении проста и ветренна, не особо интересуется поддержанием диалога, но не скучная.',
@@ -134,7 +142,7 @@ class Content extends Component {
             ],
             olesya: [
                 {
-                    cover: 'https://i.ibb.co/JdZ9cMG/olesya.png',
+                    cover: '',
                     name: 'Олеся',
                     age: '16',
                     did: 'Ученица 10 класса селькой школы в Гусеничкино. Играет на клавишных инструментах в музыкальной группе. Однако в связи с недавней травмой не может заниматься музыкальной деятельностью.',
@@ -142,7 +150,7 @@ class Content extends Component {
             ],
             sonya: [
                 {
-                    cover: 'https://i.ibb.co/FzYRYbq/Sonya-1.gif',
+                    cover: '',
                     name: 'Соня',
                     age: '16',
                     did: 'Ученица 10 класса селькой школы в Гусеничкино. Играет на бас-гитаре в музыкальной группе. В общении довольно язвительна, но в целом любит пофилософствовать в любой абстрактной теме.',
@@ -150,13 +158,17 @@ class Content extends Component {
             ],
             teacher: [
                 {
-                    cover: 'https://i.ibb.co/rM053NT/Teacher-1.gif',
+                    cover: '',
                     name: 'Учитель',
                     age: '26',
                     did: 'Учитель музыки селькой школы в Гусеничкино. Продюссирует музыкальную группу из школьниц. Резко негативно относится к принятию новых людей в коллектив.',
                 }
             ],
             news: [
+                {
+                    date: 'Май 2021',
+                    message: 'Для участия в Anivisual Jam #3 была проведена кампания по поиску новых людей. В итоге, в команду вступают RO, CedarTyan и Epigramma. Первые 2 друга уже имеют опыт в рисовании на джемах, а третий имеет опыт в написании креативной музыки.'
+                },
                 {
                     date: 'Март 2021',
                     message: 'Команду покидают "Не могу придумать ник" и ClassniChuvak. "Настоящий друг" становится самой большой новеллой на своём конкурсе. Её тепло приняли, однако она не выигрывает ни в одной из номинаций.'
@@ -192,34 +204,49 @@ class Content extends Component {
             ],
             members: [
                 {
-                    photo: '',
+                    cover: '',
                     member: 'Ksayan',
                     role: 'Режиссёр, художник, местами сценарист и кодер',
                 },
                 {
-                    photo: '',
+                    cover: '',
                     member: 'lowls',
                     role: 'Основной сценарист',
                 },
                 {
-                    photo: '',
+                    cover: '',
                     member: 'lstchk',
                     role: 'Основной кодер',
                 },
                 {
-                    photo: '',
+                    cover: '',
                     member: 'Anastasia',
                     role: 'Дизайнер',
                 },
                 {
-                    photo: '',
+                    cover: '',
                     member: 'Tanaika03',
                     role: 'Композитор',
                 },
                 {
-                    photo: '',
+                    cover: '',
+                    member: 'RO',
+                    role: 'Концепт-художник',
+                },
+                {
+                    cover: '',
+                    member: 'CedarTyan',
+                    role: 'Художник',
+                },
+                {
+                    cover: '',
+                    member: 'Epigramma',
+                    role: 'Композитор',
+                },
+                {
+                    cover: '',
                     member: 'Здесь можешь быть ты',
-                    role: 'и ты должен быть художником по спрайтам или фонам',
+                    role: 'будь кем угодно, главное - будь',
                 }
             ],
             showPage: '',
@@ -258,6 +285,12 @@ class Content extends Component {
                 </header>
 
                 <nav className="nav">
+                    <p className={"navCont"}>[Новый проект]</p>
+                    <button className={"button"}>[Персонаж]</button>
+                    <button className={"button"}>[Персонаж]</button>
+                    <button className={"button"}>[Персонаж]</button>
+                    <button className={"button"}>[Персонаж]</button>
+                    <button className={"button"}>[Персонаж]</button>
                     <p className={"navCont"}>Настоящий друг</p>
                     <button className={"button"} onClick={this.showAnnie}>Энни</button>
                     <button className={"button"} onClick={this.showBeep}>Бип</button>
@@ -335,12 +368,7 @@ class Content extends Component {
                         {this.state.showPage === 'annie'
                             ? this.state.annie.map((annie, index) => {
                                     return (
-                                        <HeroesItem
-                                            key={index}
-                                            name={annie.name}
-                                            did={annie.did}
-                                            age={annie.age}
-                                        />
+                                        <HeroesItem key={index} name={annie.name} did={annie.did} age={annie.age} cover={annie.cover}/>
                                     )
                                 },
                             )
@@ -349,12 +377,7 @@ class Content extends Component {
                         {this.state.showPage === 'beep'
                             ? this.state.beep.map((beep, index) => {
                                     return (
-                                        <HeroesItem
-                                            key={index}
-                                            name={beep.name}
-                                            did={beep.did}
-                                            age={beep.age}
-                                        />
+                                        <HeroesItem key={index} name={beep.name} did={beep.did} age={beep.age} cover={beep.cover}/>
                                     )
                                 },
                             )
@@ -363,12 +386,7 @@ class Content extends Component {
                         {this.state.showPage === 'lina'
                             ? this.state.lina.map((lina, index) => {
                                     return (
-                                        <HeroesItem
-                                            key={index}
-                                            name={lina.name}
-                                            did={lina.did}
-                                            age={lina.age}
-                                        />
+                                        <HeroesItem key={index} name={lina.name} did={lina.did} age={lina.age} cover={lina.cover}/>
                                     )
                                 },
                             )
@@ -377,12 +395,7 @@ class Content extends Component {
                         {this.state.showPage === 'angel'
                             ? this.state.angel.map((angel, index) => {
                                     return (
-                                        <HeroesItem
-                                            key={index}
-                                            name={angel.name}
-                                            did={angel.did}
-                                            age={angel.age}
-                                        />
+                                        <HeroesItem key={index} name={angel.name} did={angel.did} age={angel.age} cover={angel.cover}/>
                                     )
                                 },
                             )
@@ -391,12 +404,7 @@ class Content extends Component {
                         {this.state.showPage === 'jill'
                             ? this.state.jill.map((jill, index) => {
                                     return (
-                                        <HeroesItem
-                                            key={index}
-                                            name={jill.name}
-                                            did={jill.did}
-                                            age={jill.age}
-                                        />
+                                        <HeroesItem key={index} name={jill.name} did={jill.did} age={jill.age} cover={jill.cover}/>
                                     )
                                 },
                             )
@@ -405,12 +413,7 @@ class Content extends Component {
                         {this.state.showPage === 'scenarist'
                             ? this.state.scenarist.map((scenarist, index) => {
                                     return (
-                                        <HeroesItem
-                                            key={index}
-                                            name={scenarist.name}
-                                            did={scenarist.did}
-                                            age={scenarist.age}
-                                        />
+                                        <HeroesItem key={index} name={scenarist.name} did={scenarist.did} age={scenarist.age} cover={scenarist.cover}/>
                                     )
                                 },
                             )
@@ -419,12 +422,7 @@ class Content extends Component {
                         {this.state.showPage === 'artist'
                             ? this.state.artist.map((artist, index) => {
                                     return (
-                                        <HeroesItem
-                                            key={index}
-                                            name={artist.name}
-                                            did={artist.did}
-                                            age={artist.age}
-                                        />
+                                        <HeroesItem key={index} name={artist.name} did={artist.did} age={artist.age} cover={artist.cover}/>
                                     )
                                 },
                             )
@@ -433,12 +431,7 @@ class Content extends Component {
                         {this.state.showPage === 'composer'
                             ? this.state.composer.map((composer, index) => {
                                     return (
-                                        <HeroesItem
-                                            key={index}
-                                            name={composer.name}
-                                            did={composer.did}
-                                            age={composer.age}
-                                        />
+                                        <HeroesItem key={index} name={composer.name} did={composer.did} age={composer.age} cover={composer.cover}/>
                                     )
                                 },
                             )
@@ -447,12 +440,7 @@ class Content extends Component {
                         {this.state.showPage === 'amogu'
                             ? this.state.amogu.map((amogu, index) => {
                                     return (
-                                        <HeroesItem
-                                            key={index}
-                                            name={amogu.name}
-                                            did={amogu.did}
-                                            age={amogu.age}
-                                        />
+                                        <HeroesItem key={index} name={amogu.name} did={amogu.did} age={amogu.age} cover={amogu.cover}/>
                                     )
                                 },
                             )
@@ -461,12 +449,7 @@ class Content extends Component {
                         {this.state.showPage === 'ternox'
                             ? this.state.ternox.map((ternox, index) => {
                                     return (
-                                        <HeroesItem
-                                            key={index}
-                                            name={ternox.name}
-                                            did={ternox.did}
-                                            age={ternox.age}
-                                        />
+                                        <HeroesItem key={index} name={ternox.name} did={ternox.did} age={ternox.age} cover={ternox.cover}/>
                                     )
                                 },
                             )
@@ -475,13 +458,7 @@ class Content extends Component {
                         {this.state.showPage === 'max'
                             ? this.state.max.map((max, index) => {
                                     return (
-                                        <HeroesItem
-                                            key={index}
-                                            name={max.name}
-                                            did={max.did}
-                                            age={max.age}
-                                            cover={max.cover}
-                                        />
+                                        <HeroesItem key={index} name={max.name} did={max.did} age={max.age} cover={max.cover}/>
                                     )
                                 },
                             )
@@ -490,13 +467,7 @@ class Content extends Component {
                         {this.state.showPage === 'dasha'
                             ? this.state.dasha.map((dasha, index) => {
                                     return (
-                                        <HeroesItem
-                                            key={index}
-                                            name={dasha.name}
-                                            did={dasha.did}
-                                            age={dasha.age}
-                                            cover={dasha.cover}
-                                        />
+                                        <HeroesItem key={index} name={dasha.name} did={dasha.did} age={dasha.age} cover={dasha.cover}/>
                                     )
                                 },
                             )
@@ -505,13 +476,7 @@ class Content extends Component {
                         {this.state.showPage === 'olesya'
                             ? this.state.olesya.map((olesya, index) => {
                                     return (
-                                        <HeroesItem
-                                            key={index}
-                                            name={olesya.name}
-                                            did={olesya.did}
-                                            age={olesya.age}
-                                            cover={olesya.cover}
-                                        />
+                                        <HeroesItem key={index} name={olesya.name} did={olesya.did} age={olesya.age} cover={olesya.cover}/>
                                     )
                                 },
                             )
@@ -520,13 +485,7 @@ class Content extends Component {
                         {this.state.showPage === 'sonya'
                             ? this.state.sonya.map((sonya, index) => {
                                     return (
-                                        <HeroesItem
-                                            key={index}
-                                            name={sonya.name}
-                                            did={sonya.did}
-                                            age={sonya.age}
-                                            cover={sonya.cover}
-                                        />
+                                        <HeroesItem key={index} name={sonya.name} did={sonya.did} age={sonya.age} cover={sonya.cover}/>
                                     )
                                 },
                             )
@@ -535,20 +494,13 @@ class Content extends Component {
                         {this.state.showPage === 'teacher'
                             ? this.state.teacher.map((teacher, index) => {
                                     return (
-                                        <HeroesItem
-                                            key={index}
-                                            name={teacher.name}
-                                            did={teacher.did}
-                                            age={teacher.age}
-                                            cover={teacher.cover}
-                                        />
+                                        <HeroesItem key={index} name={teacher.name} did={teacher.did} age={teacher.age} cover={teacher.cover}/>
                                     )
                                 },
                             )
                             : null
                         }
                     </div>
-
                 </div>
             </div>
         )

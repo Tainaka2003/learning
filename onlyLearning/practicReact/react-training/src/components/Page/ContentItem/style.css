@@ -5,7 +5,9 @@
     height: 300px;
 }
 
-.App .cont .content .games .contentItem:nth-of-type(2) {
+.App .cont .content .games .contentItem:nth-of-type(2),
+.App .cont .content .games .contentItem:nth-of-type(4)
+{
     flex-direction: row-reverse;
 }
 
@@ -32,6 +34,7 @@
 
 .App .cont .content .games .contentItem .contentText .paragraph {
     margin: 18px 0;
+    text-align: justify;
 }
 
 .App .cont .content .games .contentItem .contentText .paragraph:first-of-type {

@@ -3,9 +3,9 @@ import './style.css'
 
 const NewsItem = (props) => {
     return (
-        <div className={"newsItem"}>
-            <div className={"newsText"}>
-                <p className={"paragraph"}>{props.date}</p>
+        <div className={"newsWrap"}>
+            <div className={"newsItem"}>
+                <p className={"title"}>{props.date}</p>
                 <p className={"paragraph"}>{props.message}</p>
             </div>
         </div>

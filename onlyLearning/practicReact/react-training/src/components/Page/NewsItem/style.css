@@ -1,10 +1,20 @@
-.App .cont .content .news .newsItem {
+.App .cont .content .news .newsWrap {
     display: flex;
     flex-direction: column;
     width: 860px;
     padding: 0 20px 0 20px;
 }
 
-.App .cont .content .news .newsItem .newsText {
+.App .cont .content .news .newsWrap .newsItem {
     font-family: 'Balsamiq Sans', cursive;
+}
+
+.App .cont .content .news .newsWrap .newsItem .title {
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.App .cont .content .news .newsWrap .newsItem .paragraph {
+    text-align: justify;
 }
