@@ -4,12 +4,31 @@
     <list default="true" id="540bb746-3793-46f3-a0fd-b305a9e332e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page/ContentItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/ContentItem/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page/ContentItem/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/ContentItem/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page/MemberItem/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/MemberItem/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page/NewsItem/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/NewsItem/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/MemberItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/MemberItem/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Page/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/img/icons/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/img/icons/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/img/icons/android-chrome-maskable-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/img/icons/android-chrome-maskable-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/img/icons/apple-touch-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/img/icons/apple-touch-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/img/icons/apple-touch-icon-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/img/icons/apple-touch-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/img/icons/apple-touch-icon-76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/img/icons/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/img/icons/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/img/icons/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/img/icons/msapplication-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/img/icons/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/img/icons/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../practicVue/vue-with-scss/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../practicVue/vue-with-scss/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../practicVue/vue-with-scss/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/src/views/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practicVue/vue-with-scss/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../practicVue/vue-with-scss/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../practicVue/training-tz" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -58,6 +77,10 @@
       <workItem from="1618414996620" duration="1922000" />
       <workItem from="1618491336052" duration="57000" />
       <workItem from="1620930355890" duration="9450000" />
+      <workItem from="1622465527278" duration="3612000" />
+      <workItem from="1622540846933" duration="26000" />
+      <workItem from="1622589683835" duration="731000" />
+      <workItem from="1622625714666" duration="11000" />
     </task>
     <servers />
   </component>
