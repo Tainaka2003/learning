@@ -11,14 +11,6 @@ class Content extends Component {
         this.state = {
             games: [
                 {
-                    name: '[Новый проект]',
-                    year: '[Лето 2021]',
-                    type: '[Жанры]',
-                    description: '[Описание]',
-                    mark: '[Оценки]',
-                    cover: '',
-                },
-                {
                     name: 'Настоящий друг',
                     year: 'Весна 2021',
                     type: 'Приключения, Нелинейные концовки',
@@ -126,7 +118,7 @@ class Content extends Component {
             ],
             max: [
                 {
-                    cover: '',
+                    cover: 'https://i.ibb.co/s5NxPcj/Max-1.gif',
                     name: 'Максим',
                     age: '17',
                     did: 'Ученик 11 класса селькой школы в Гусеничкино. Хочет попасть в музыкальный кружок, чтобы играть в музыкальной группе на клавишных, но встречает некоторые трудности в этом.',
@@ -134,7 +126,7 @@ class Content extends Component {
             ],
             dasha: [
                 {
-                    cover: '',
+                    cover: 'https://i.ibb.co/cJyjsBw/dasha.png',
                     name: 'Даша',
                     age: '16',
                     did: 'Ученица 10 класса селькой школы в Гусеничкино. Играет на ударных инструментах в музыкальной группе. В общении проста и ветренна, не особо интересуется поддержанием диалога, но не скучная.',
@@ -142,7 +134,7 @@ class Content extends Component {
             ],
             olesya: [
                 {
-                    cover: '',
+                    cover: 'https://i.ibb.co/JdZ9cMG/olesya.png',
                     name: 'Олеся',
                     age: '16',
                     did: 'Ученица 10 класса селькой школы в Гусеничкино. Играет на клавишных инструментах в музыкальной группе. Однако в связи с недавней травмой не может заниматься музыкальной деятельностью.',
@@ -150,7 +142,7 @@ class Content extends Component {
             ],
             sonya: [
                 {
-                    cover: '',
+                    cover: 'https://i.ibb.co/FzYRYbq/Sonya-1.gif',
                     name: 'Соня',
                     age: '16',
                     did: 'Ученица 10 класса селькой школы в Гусеничкино. Играет на бас-гитаре в музыкальной группе. В общении довольно язвительна, но в целом любит пофилософствовать в любой абстрактной теме.',
@@ -158,13 +150,17 @@ class Content extends Component {
             ],
             teacher: [
                 {
-                    cover: '',
+                    cover: 'https://i.ibb.co/rM053NT/Teacher-1.gif',
                     name: 'Учитель',
                     age: '26',
                     did: 'Учитель музыки селькой школы в Гусеничкино. Продюссирует музыкальную группу из школьниц. Резко негативно относится к принятию новых людей в коллектив.',
                 }
             ],
             news: [
+                {
+                    date: 'Июль 2021',
+                    message: 'Коллектив во время Anivisual Jam#3 распадается на несколько команд, каждая из которых занимается своей конкурсной новеллой. В ходе участия в конкурсе лидеру объединения не понравились получаемые работы, как итог - все его участники покинули проект. Эти проекты не находятся здесь, потому что не числятся за Лучшими Друзьями.'
+                },
                 {
                     date: 'Май 2021',
                     message: 'Для участия в Anivisual Jam #3 была проведена кампания по поиску новых людей. В итоге, в команду вступают RO, CedarTyan и Epigramma. Первые 2 друга уже имеют опыт в рисовании на джемах, а третий имеет опыт в написании креативной музыки.'
@@ -203,51 +199,11 @@ class Content extends Component {
                 },
             ],
             members: [
-                {
+                /*{
                     cover: '',
-                    member: 'Ksayan',
-                    role: 'Режиссёр, художник, местами сценарист и кодер',
-                },
-                {
-                    cover: '',
-                    member: 'lowls',
-                    role: 'Основной сценарист',
-                },
-                {
-                    cover: '',
-                    member: 'lstchk',
-                    role: 'Основной кодер',
-                },
-                {
-                    cover: '',
-                    member: 'Anastasia',
-                    role: 'Дизайнер',
-                },
-                {
-                    cover: '',
-                    member: 'Tanaika03',
-                    role: 'Композитор',
-                },
-                {
-                    cover: '',
-                    member: 'RO',
-                    role: 'Концепт-художник',
-                },
-                {
-                    cover: '',
-                    member: 'CedarTyan',
-                    role: 'Художник',
-                },
-                {
-                    cover: '',
-                    member: 'Epigramma',
-                    role: 'Композитор',
-                },
-                {
-                    cover: '',
-                    member: 'Здесь можешь быть ты',
-                    role: 'будь кем угодно, главное - будь',
-                }
+                    member: '',
+                    role: '',
+                },*/
             ],
             showPage: '',
         }
@@ -279,18 +235,13 @@ class Content extends Component {
                 <header className="header">
                     <img src="https://i.ibb.co/cyxm6TY/c08e5a1ad55f0088.png" alt="c08e5a1ad55f0088" border="0"
                          width={"300px"} height={"75px"}/>
+                         <div className="buttonCont">
                     <button className="button" onClick={this.ToggleGames}>Проекты</button>
                     <button className="button" onClick={this.ToggleNews}>Дневник</button>
-                    <button className="button" onClick={this.ToggleMembers}>Состав</button>
+                         </div>
                 </header>
 
                 <nav className="nav">
-                    <p className={"navCont"}>[Новый проект]</p>
-                    <button className={"button"}>[Персонаж]</button>
-                    <button className={"button"}>[Персонаж]</button>
-                    <button className={"button"}>[Персонаж]</button>
-                    <button className={"button"}>[Персонаж]</button>
-                    <button className={"button"}>[Персонаж]</button>
                     <p className={"navCont"}>Настоящий друг</p>
                     <button className={"button"} onClick={this.showAnnie}>Энни</button>
                     <button className={"button"} onClick={this.showBeep}>Бип</button>
