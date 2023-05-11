@@ -1,0 +1,44 @@
+.App {
+    display: flex;
+    justify-content: center;
+}
+
+.App .Left {
+    width: 240px;
+    height: 480px;
+}
+
+.App .Right-group {
+    display: flex;
+    flex-direction: column;
+    width: 610px;
+}
+
+.App .Right-medium {
+    display: flex;
+    width: 600px;
+    height: 200px;
+}
+
+.App .Right-little {
+    display: flex;
+    width: 600px;
+    height: 128px;
+}
+
+.App .Right-low-group {
+    display: flex;
+    flex-direction: row;
+    width: 610px;
+}
+
+.App .Right-low {
+    width: 294px;
+    height: 132px;
+}
+
+.App .Container {
+    box-shadow: 2px 2px 9px #898989;
+    border-radius: 10px;
+    margin: 5px;
+}

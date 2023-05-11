@@ -13,7 +13,10 @@ const HeroesItem = (props) => {
                 <div className={"heroStart"}>
                     <p className={"persona"}>{props.name}</p>
                     <p className={"description"}>Возраст: {props.age}</p>
+                    <p className={"description"}>Первое появление: {props.first}</p>
                     <p className={"description"}>Род деятельности: {props.did}</p>
+                    <p className={"description"}>Роль в кружке: {props.role}</p>
+                    <p className={"description"}>Другая информация: {props.other}</p>
                 </div>
             </div>
         </div>

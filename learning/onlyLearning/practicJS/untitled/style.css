@@ -1,0 +1,74 @@
+body {
+    font-family: Roboto, serif;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .phone {
+    font-size: 24px;
+    color: #0D1C41;
+}
+
+.header .autorise {
+    display: flex;
+    align-items: center;
+    color: #0D1C41;
+}
+
+.header .autorise svg{
+    padding-left: 8px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main .banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    width: 80%;
+    height: 500px;
+    border: 1px bisque solid;
+    border-radius: 40px;
+}
+
+.main .banner .text p {
+    margin: 0;
+}
+
+.main .banner .text .small-caption {
+    margin-top: 24px;
+    width: 360px;
+    font-size: 14px;
+    color: #939CA6;
+}
+
+.main .banner .text .bold-caption {
+    font-weight: bold;
+}
+
+.main .banner .text {
+    font-size: 36px;
+}
+
+.main .banner .text button {
+    background: white;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 260px;
+    margin-top: 90px;
+    padding: 20px 75px 20px 75px;
+}
+
+.main .banner .text button .button-text {
+    font-size: 16px;
+}
